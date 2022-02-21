@@ -1,0 +1,13 @@
+version: "3.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Return coin id when user asks for it
+  steps:
+  - intent: coin_search
+  - action: action_search_coin

@@ -1,0 +1,48 @@
+version: "3.0"
+
+slots:
+  coin:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: coin
+
+entities:
+  - coin
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - coin_search
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey there!"
+  - text: "Hello!"
+  - text: "Hiya!"
+  - text: "Henlo!"
+
+  utter_help:
+  - text: "Hey, I am Honeycomb.\nI am built to be your one-stop solution for all things Crypto. You can query any crypto related information and I will try my level best to provide you with the latest information."
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "That's great! So happy I could help you."
+
+  utter_goodbye:
+  - text: "Goodbye!"
+
+actions:
+  - action_search_coin
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

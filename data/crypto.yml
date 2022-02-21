@@ -1,0 +1,16 @@
+version: "3.0"
+
+nlu:
+- intent: coin_search
+  examples: |
+    - [bitcoin](coin) id
+    - can i get [ethereum](coin) id?
+    - id of [bitcoin](coin)
+    - id [litecoin](coin)
+    - id for [smooth love potion](coin) pls
+    - [bitcoin](coin) id pls
+    - return [ethereum](coin) id.
+    - pls give [bitcoin](coin) id
+    - give [ethereum](coin) id please
+    - can i have id for [bitcoin](coin)
+    - can i have [ethereum](coin) id

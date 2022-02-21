@@ -1,0 +1,15 @@
+version: "3.0"
+
+stories:
+
+- story: user ask coin id
+  steps:
+  - intent: coin_search
+  - action: action_search_coin
+
+- story: greet and coin id
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: coin_search
+  - action: action_search_coin
