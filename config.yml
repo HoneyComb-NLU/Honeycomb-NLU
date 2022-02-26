@@ -15,14 +15,17 @@ pipeline:
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
   - name: RegexFeaturizer
+    case_sensitive: False
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
+  - name: RegexEntityExtractor
   - name: DIETClassifier
     epochs: 100
+    entity_recognition: False
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100

@@ -1,7 +1,7 @@
 version: '3.0'
 
 nlu:
-- lookup: coins
+- lookup: coin
   examples: |-
     - 0 5x long algorand token
     - 0 5x long altcoin index token
