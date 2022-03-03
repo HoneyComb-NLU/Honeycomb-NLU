@@ -7,9 +7,28 @@ slots:
     mappings:
     - type: from_entity
       entity: coin
+  coin_from:
+    type: list
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: coin
+      role: conv_from
+  currency_to:
+    type: list
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: currency
+      role: conv_to
 
 entities:
   - coin
+      roles:
+      - conv_from
+  - currency
+      roles:
+      - conv_to
 
 intents:
   - greet
@@ -18,6 +37,7 @@ intents:
   - deny
   - mood_great
   - coin_search
+  - simple_coin_price
   - mood_unhappy
   - bot_challenge
 

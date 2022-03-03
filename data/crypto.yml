@@ -17,3 +17,17 @@ nlu:
     - id for [2022moon](coin) pls
     - give me the id for [bitcoin](coin)
     - give me [bitcoin](coin) id
+
+- intent: simple_coin_price
+  examples: |
+    - can i get price of [bitcoin]{"entity" : "coin", "role" : "conv_from"}?
+    - price of [ethereum]{"entity" : "coin", "role" : "conv_from"} please
+    - [smooth love potion]{"entity" : "coin", "role" : "conv_from"} price
+    - Can I get the price of [bitcoin]{"entity" : "coin", "role" : "conv_from"}?
+    - [alpaca]{"entity" : "coin", "role" : "conv_from"} coin price
+    - [bitcoin]{"entity" : "coin", "role" : "conv_from"} value
+    - value of [ethereum]{"entity" : "coin", "role" : "conv_from"} pls
+    - can i get the price in [inr]{"entity" : "currency", "role" : "conv_to"} of [bitcoin]{"entity" : "currency", "role" : "conv_from"}
+    - what is the price of [smooth love potion]{"entity" : "coin", "role" : "conv_from"}?
+    - what is the price of [smooth love potion]{"entity" : "coin", "role" : "conv_from"} in [eur]{"entity" : "currency", "role" : "conv_to"}?
+    - can i get price of [bitcoin]{"entity" : "coin", "role" : "conv_from"} in [sgd]{"entity" : "currency", "role" : "conv_to"}?

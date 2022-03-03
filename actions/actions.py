@@ -20,18 +20,27 @@ from thefuzz import fuzz, process
 con = sqlite3.connect("database.db")
 cur = con.cursor()
 coin_ids = [a[0].replace('-', ' ') for a in cur.execute("SELECT id FROM coin_list")]
+currencies = [a[0] for a in cur.execute("SELECT id FROM supported_currencies")]
 
 yaml = YAML()
+stream = open("./data/coins.yml", "r")
+stream1 = open("./data/currencies.yml", "r")
+ste = yaml.load(stream)
+ste1 = yaml.load(stream1)
+stream.close()
+stream1.close()
 
-with open('./data/coins.yml', "r") as stream:
-    ste = yaml.load(stream)
-    ste["nlu"][0]['examples'] = '- ' + '\n- '.join(coin_ids)
+stream = open("./data/coins.yml", "w")
+stream1 = open("./data/currencies.yml", "w")
 
-with open('./data/coins.yml', "w") as stream:
-    yaml.dump(ste, stream)
+ste["nlu"][0]['examples'] = '- ' + '\n- '.join(coin_ids)
+ste1["nlu"][0]['examples'] = '- ' + '\n- '.join(currencies)
+
+yaml.dump(ste, stream)
+yaml.dump(ste1, stream1)
 
 
-class ActionHelloWorld(Action):
+class ActionSearchCoin(Action):
 
     def name(self) -> Text:
         return "action_search_coin"
@@ -39,7 +48,7 @@ class ActionHelloWorld(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        msg = lower(tracker.get_slot('coin'))
+        msg = tracker.get_slot('coin').lower()
         print(msg)
         ### If id directly available
         if msg in coin_ids:
