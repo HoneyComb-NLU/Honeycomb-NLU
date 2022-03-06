@@ -20,14 +20,17 @@ nlu:
 
 - intent: simple_coin_price
   examples: |
-    - can i get price of [bitcoin]{"entity" : "coin", "role" : "conv_from"}?
-    - price of [ethereum]{"entity" : "coin", "role" : "conv_from"} please
-    - [smooth love potion]{"entity" : "coin", "role" : "conv_from"} price
-    - Can I get the price of [bitcoin]{"entity" : "coin", "role" : "conv_from"}?
-    - [alpaca]{"entity" : "coin", "role" : "conv_from"} coin price
-    - [bitcoin]{"entity" : "coin", "role" : "conv_from"} value
-    - value of [ethereum]{"entity" : "coin", "role" : "conv_from"} pls
-    - can i get the price in [inr]{"entity" : "currency", "role" : "conv_to"} of [bitcoin]{"entity" : "currency", "role" : "conv_from"}
-    - what is the price of [smooth love potion]{"entity" : "coin", "role" : "conv_from"}?
-    - what is the price of [smooth love potion]{"entity" : "coin", "role" : "conv_from"} in [eur]{"entity" : "currency", "role" : "conv_to"}?
-    - can i get price of [bitcoin]{"entity" : "coin", "role" : "conv_from"} in [sgd]{"entity" : "currency", "role" : "conv_to"}?
+    - can i get price of [bitcoin](coin)?
+    - price of [ethereum](coin) please
+    - [smooth love potion](coin) price
+    - Can I get the price of [bitcoin](coin)?
+    - [alpaca](coin) coin price
+    - [bitcoin](coin) value
+    - value of [ethereum](coin) pls
+    - can i get the price in [inr](currency) of [bitcoin](coin)?
+    - what is the price of [smooth love potion](coin)?
+    - what is the price of [smooth love potion](coin) in [eur](currency)?
+    - can i get price of [bitcoin](coin) in [sgd](currency)?
+    - can i get the price in [eur](currency) of [bitcoin](coin) and [ethereum](coin)?
+    - i want the price of [ethereum](coin) and [smooth love potion](coin) in [usd](currency) and [eur](currency)
+    - give me the price of [alpaca](coin) in [sgd](currency), [usd](currency), and [eur](currency)

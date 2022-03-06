@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: coin_search
   - action: action_search_coin
+
+- rule: Return coin price when user asks for it
+  steps:
+  - intent: simple_coin_price
+  - action: action_fetch_price

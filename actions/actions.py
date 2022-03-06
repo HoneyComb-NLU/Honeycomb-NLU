@@ -39,6 +39,9 @@ ste1["nlu"][0]['examples'] = '- ' + '\n- '.join(currencies)
 yaml.dump(ste, stream)
 yaml.dump(ste1, stream1)
 
+stream.close()
+stream1.close()
+
 
 class ActionSearchCoin(Action):
 
@@ -48,7 +51,7 @@ class ActionSearchCoin(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        msg = tracker.get_slot('coin').lower()
+        msg = tracker.get_slot('coin')[0].lower()
         print(msg)
         ### If id directly available
         if msg in coin_ids:
@@ -61,8 +64,37 @@ class ActionSearchCoin(Action):
                 choices.append(match[0])
 
         print(choices)
-        for each in choices:
-            coin_all = [a for a in cur.execute(f"SELECT symbol, name FROM coin_list WHERE id = \"{each}\"")][0]
-            coin_symbol, coin_name = coin_all[0], coin_all[1]
-            dispatcher.utter_message(f"Coin symbol: {coin_symbol}|Coin name: {coin_name}|")
+        msg = {
+            "intent": {
+                "name": tracker.get_intent_of_latest_message()
+            },
+            "slots": {
+                "coins": choices
+            },
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
         return []
+    
+class ActionFetchPrice(Action):
+    def name(self) -> Text:
+        return "action_fetch_price"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            
+            coins = tracker.get_slot("coin")
+            currencies = tracker.get_slot("currency")
+            intent = tracker.get_intent_of_latest_message()
+            msg = {
+            "intent": {
+                "name": intent
+            },
+            "slots": {
+                "coins": coins,
+                "currencies": currencies
+            },
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+            }
+            dispatcher.utter_message(json_message=msg)

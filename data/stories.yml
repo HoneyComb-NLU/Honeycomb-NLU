@@ -13,3 +13,47 @@ stories:
   - action: utter_greet
   - intent: coin_search
   - action: action_search_coin
+
+- story: greet, coin id, affirm
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: coin_search
+  - action: action_search_coin
+  - intent: affirm
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: coin id, affirm
+  steps:
+  - intent: coin_search
+  - action: action_search_coin
+  - intent: affirm
+  - action: utter_happy
+
+- story: simple coin price
+  steps:
+  - intent: simple_coin_price
+  - action: action_fetch_price
+
+- story: greet and coin price
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: simple_coin_price
+  - action: action_fetch_price
+
+- story: coin id and bye
+  steps:
+  - intent: coin_search
+  - action: action_search_coin
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: coin price and bye
+  steps:
+  - intent: simple_coin_price
+  - action: action_fetch_price
+  - intent: goodbye
+  - action: utter_goodbye
