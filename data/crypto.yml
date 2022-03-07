@@ -34,3 +34,9 @@ nlu:
     - can i get the price in [eur](currency) of [bitcoin](coin) and [ethereum](coin)?
     - i want the price of [ethereum](coin) and [smooth love potion](coin) in [usd](currency) and [eur](currency)
     - give me the price of [alpaca](coin) in [sgd](currency), [usd](currency), and [eur](currency)
+    - can i get the price of [btc](coin) in [eur](currency)
+    - [eth](coin) price in [sgd](currency)
+    - [slp](coin) price
+    - price of [btc](coin)
+    - [2shares](coin) in [inr](currency), [sgd](currency) and [eur](currency)
+    - what is the price of [2x2](coin) in [eur](currency) and [sgd](currency)?
