@@ -88,3 +88,27 @@ nlu:
   examples: |
     - What is Honeycomb?
     - Honeycomb
+    - what is this?
+    - wtf is this
+    - help
+    - help pls
+    - info
+    - give info about honeycomb
+    - i need help
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - bot or human?
+    - bot
+    - am i talking to a human
+    - are you a person
+    - are you real
+    - is this a robot
+    - this is a bot
+    - this is real
+    - is this an actual human
+    - are you a boy
+    - are you a girl
+    - boy or girl
+    - bot or real

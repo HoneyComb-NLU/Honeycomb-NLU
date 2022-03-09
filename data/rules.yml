@@ -5,7 +5,7 @@ rules:
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
-  - action: utter_goodbye
+  - action: action_goodbye
 
 - rule: Return coin id when user asks for it
   steps:
@@ -16,3 +16,13 @@ rules:
   steps:
   - intent: simple_coin_price
   - action: action_fetch_price
+
+- rule: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: action_bot_challenge
+
+- rule: need help
+  steps:
+  - intent: need_help
+  - action: action_help

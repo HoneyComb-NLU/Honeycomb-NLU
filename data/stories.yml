@@ -10,27 +10,27 @@ stories:
 - story: greet and coin id
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: action_greet
   - intent: coin_search
   - action: action_search_coin
 
 - story: greet, coin id, affirm
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: action_greet
   - intent: coin_search
   - action: action_search_coin
   - intent: affirm
-  - action: utter_happy
+  - action: action_happy
   - intent: goodbye
-  - action: utter_goodbye
+  - action: action_goodbye
 
 - story: coin id, affirm
   steps:
   - intent: coin_search
   - action: action_search_coin
   - intent: affirm
-  - action: utter_happy
+  - action: action_happy
 
 - story: simple coin price
   steps:
@@ -40,7 +40,7 @@ stories:
 - story: greet and coin price
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: action_greet
   - intent: simple_coin_price
   - action: action_fetch_price
 
@@ -49,11 +49,38 @@ stories:
   - intent: coin_search
   - action: action_search_coin
   - intent: goodbye
-  - action: utter_goodbye
+  - action: action_goodbye
 
 - story: coin price and bye
   steps:
   - intent: simple_coin_price
   - action: action_fetch_price
   - intent: goodbye
-  - action: utter_goodbye
+  - action: action_goodbye
+
+- story: coin id, bad
+  steps:
+  - intent: coin_search
+  - action: action_search_coin
+  - intent: deny
+  - action: action_unhappy
+
+- story: coin id, affirm
+  steps:
+  - intent: coin_search
+  - action: action_search_coin
+  - intent: deny
+  - action: action_unhappy
+  - intent: goodbye
+  - action: action_goodbye
+
+- story: coin price and bye
+  steps:
+  - intent: simple_coin_price
+  - action: action_fetch_price
+  - intent: deny
+  - action: action_unhappy
+  - intent: goodbye
+  - action: action_goodbye
+
+

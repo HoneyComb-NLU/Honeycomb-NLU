@@ -13,103 +13,89 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from datetime import datetime
 from rasa_sdk.events import SlotSet
-import sqlite3
+# import sqlite3
 from ruamel.yaml import YAML
 from thefuzz import fuzz, process
 from ruamel.yaml.comments import CommentedMap as OrderedDict
+import requests
 
-### COIN UPDATE
-con = sqlite3.connect("database.db")
-cur = con.cursor()
-all_coins = [a for a in cur.execute("SELECT id, symbol, name FROM coin_list")]
+### UPDATION AND INITIALIZATION
+#   ===========================   #
+# con = sqlite3.connect("database.db")
+# cur = con.cursor()
+# all_coins = [a for a in cur.execute("SELECT id, symbol, name FROM coin_list")]
+all_coins = requests.get("https://api.coingecko.com/api/v3/coins/list").json()
+currencies = requests.get("https://api.coingecko.com/api/v3/simple/supported_vs_currencies").json()
 coin_ids = []
 coin_symbol = []
 coin_names = []
 for i in all_coins:
-    coin_ids.append(i[0].replace('-', ' '))
+    coin_ids.append(i[0])
     coin_symbol.append(i[1])
-    coin_names.append(i[2])
-currencies = [a[0] for a in cur.execute("SELECT id FROM supported_currencies")]
+    coin_names.append(i[2].lower())
+currencies = [a for a in currencies]
 
 yaml = YAML()
 stream = open("./data/coins.yml", "r", encoding = 'utf-8')
 stream1 = open("./data/currencies.yml", "r",encoding = 'utf-8')
-# stream2 = open("./data/coin_syn.yml", "r", encoding = 'utf-8')
+
 ste = yaml.load(stream)
 ste1 = yaml.load(stream1)
-# ste2 = yaml.load(stream2)
+
 stream.close()
 stream1.close()
-# stream2.close()
 
 stream = open("./data/coins.yml", "w", encoding = 'utf-8')
 stream1 = open("./data/currencies.yml", "w", encoding = 'utf-8')
-# stream2 = open("./data/coin_syn.yml", "w", encoding = 'utf-8')
 
-ste["nlu"][0]['examples'] = '- ' + '\n- '.join(coin_ids + coin_names)
+ste["nlu"][0]['examples'] = '- ' + '\n- '.join([i.replace('-', ' ') for i in coin_ids])
 ste1["nlu"][0]['examples'] = '- ' + '\n- '.join(currencies)
-# num = 0
-# ste2['nlu'] = []
-# for i, j, k in zip(coin_ids, coin_symbol, coin_names):
-#     num = num + 1
-#     d = OrderedDict([('synonym', i),
-#         ('examples', f'- {j}\n- {k}')])
-#     ste2['nlu'].append(d)
-
-# print(num)
 
 yaml.dump(ste, stream)
 yaml.dump(ste1, stream1)
-# yaml.representer.ignore_aliases = lambda *data: True
-# yaml.dump(ste2, stream2)
 
 stream.close()
 stream1.close()
-# stream2.close()
 
-# def match_fuzzwuzz(coins, currency = None):
-#     matched_coins = []
-#     matched_currencies = []
-#     coins = [i.lower() for i in coins]
-#     currency = [i.lower() for i in currency]
+#   ===========================   #
 
-#     # FOR COINS
-#     if coins:
-#         if len(coins) == 1:
-#             if (coins[0]) not in coin_ids:
-#                 similar = process.extract(coins[0], coin_ids, scorer = fuzz.WRatio, limit = 5)
-#                 for i in similar:
-#                     matched_coins.append(i[0].replace(' ', '-'))
-#             else:
-#                 matched_coins = coins
-#         else:
-#             for i in coins:
-#                 if i not in coin_ids:
-#                     c = process.extractOne(i, coin_ids, scorer = fuzz.WRatio)[0]
-#                     matched_coins.append(c.replace(' ', '-'))
-#                 else:
-#                     matched_coins.append(i)
+
+### HELPER FUNCTION FOR FUZZY MATCHING
+#   ===========================   #
+def find_valid_options(coins, currency = None):
+    if (coins == None):
+        coins = []
+    if (currency == None):
+        currency = []
+    valid_coins = []
+    valid_currencies = []
     
-#     # FOR CURRENCIES
-#     if currency:
-#         if len(currency) == 1:
-#             if currency[0] not in currencies:
-#                 similar = process.extract(currency[0], currencies, scorer = fuzz.WRatio, limit = 2)
-#                 for i in similar:
-#                     matched_currencies.append(i[0])
-#             else:
-#                 matched_currencies = currency
-#         else:
-#             for i in currency:
-#                 if i not in currencies:
-#                     c = process.extractOne(i, currencies, scorer = fuzz.WRatio)[0]
-#                     matched_currencies.append(c)
-#                 else:
-#                     matched_currencies.append(i)
-                    
-#     return {"coins" : matched_coins, "currencies" : matched_currencies}
-
+    for i in coins:
+        if i.replace(' ', '-') in coin_ids:
+            print(f"Match in ids found!: {i}")
+            valid_coins.append(i.replace(' ', '-'))
+        elif i in coin_names:
+            print(f"Match in names found!: {i}")
+            valid_coins.append(coin_ids[coin_names.index(i)])
+            print(coin_ids[coin_names.index(i)])
+        else:
+            ids = process.extractOne(i.replace(' ', '-'), coin_ids, scorer = fuzz.WRatio)[0]
+            print(f"Closest id match: {ids}")
+            names = process.extractOne(i, coin_names, scorer = fuzz.WRatio)[0]
+            print(f"Closest name match: {names}")
+            if (coin_ids.index(ids) != coin_names.index(names)):
+                valid_coins.append(coin_ids[coin_names.index(names)])
+            valid_coins.append(ids)
+    for i in currency:
+        if i in currencies:
+            valid_currencies.append(i)
+        else:
+            c = process.extractOne(i, currencies, scorer = fuzz.WRatio)[0]
+            valid_currencies.append(c)
         
+    return {"coins" : valid_coins, "currencies" : valid_currencies}
+ 
+#   ===========================   #
 
 
 class ActionSearchCoin(Action):
@@ -120,31 +106,26 @@ class ActionSearchCoin(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        msg = tracker.get_slot('coin')[0].lower()
-        print(msg)
-        ### If id directly available
-        # if msg in coin_ids:
-        #     choices = [msg.replace(' ', '-')]
-        # else:
-        #     dispatcher.utter_message("We could not find an exact match. Please check the ones below.")
-        #     similar = process.extract(msg, coin_ids, limit = 5, scorer = fuzz.WRatio)
-        #     choices = []
-        #     for match in similar:
-        #         choices.append(match[0].replace(' ', '-'))
-        # choices = match_fuzzwuzz(msg)['coins']
-        # print(choices)
+        msg = tracker.get_slot('coin')
+        if not msg:
+            coins = []
+        else:
+            coins = msg[0].lower()
+            choices = find_valid_options(coins)['coins']
+            print(choices)
         msg = {
-            "intent": {
-                "name": tracker.get_intent_of_latest_message()
-            },
+            "intent": tracker.get_intent_of_latest_message(),
             "slots": {
-                "coins": msg
+                "coins": choices,
+                "currencies": []
             },
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
         dispatcher.utter_message(json_message=msg)
         return [SlotSet("coin", None)]
     
+
+
 class ActionFetchPrice(Action):
     def name(self) -> Text:
         return "action_fetch_price"
@@ -152,18 +133,24 @@ class ActionFetchPrice(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        coins = list(set(tracker.get_slot("coin")))
+        coin_raw = tracker.get_slot("coin")
+        currency_raw = tracker.get_slot("currency")
+        if not coin_raw:
+            coin_raw = []
+        elif not currency_raw:
+            currency_raw = []
+
+        coins = [i.lower() for i in list(set(coin_raw))]
         print(coins)
-        currencies = list(set(tracker.get_slot("currency")))
+        currencies = [i.lower() for i in list(set(currency_raw))]
         print(currencies)
-            # choices = match_fuzzwuzz(coins, currencies)
-            # coins = choices['coins']
-            # currencies = choices['currencies']
+        choices = find_valid_options(coins, currencies)
+        coins = choices['coins']
+        currencies = choices['currencies']
+        print(coins, currencies)
         intent = tracker.get_intent_of_latest_message()
         msg = {
-            "intent": {
-                "name": intent
-            },
+            "intent": intent,
             "slots": {
                 "coins": coins,
                 "currencies": currencies
@@ -172,3 +159,102 @@ class ActionFetchPrice(Action):
         }
         dispatcher.utter_message(json_message=msg)
         return [SlotSet("coin", None), SlotSet("currency", None)]
+
+
+class ActionGreet(Action):
+    def name(self) -> Text:
+        return "action_greet"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        intent = tracker.get_intent_of_latest_message()
+        msg = {
+            "intent": intent,
+            "responses": "Hiya!",
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return []
+
+class ActionHelp(Action):
+    def name(self) -> Text:
+        return "action_help"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        intent = tracker.get_intent_of_latest_message()
+        msg = {
+            "intent": intent,
+            "responses": "Hey, I am Honeycomb.\nI am built to be your one-stop solution for all things Crypto. You can query any crypto related information and I will try my level best to provide you with the latest information.",
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return []
+    
+class ActionHappy(Action):
+    def name(self) -> Text:
+        return "action_happy"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        intent = tracker.get_intent_of_latest_message()
+        msg = {
+            "intent": intent,
+            "responses": "That's great! So happy I could help you.",
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return []
+
+class ActionGoodbye(Action):
+    def name(self) -> Text:
+        return "action_goodbye"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        intent = tracker.get_intent_of_latest_message()
+        msg = {
+            "intent": intent,
+            "responses": "Hope to see you soon!",
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return []
+
+
+class ActionUnhappy(Action):
+    def name(self) -> Text:
+        return "action_unhappy"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        intent = tracker.get_intent_of_latest_message()
+        msg = {
+            "intent": intent,
+            "responses": "I apologize.",
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return []
+
+class ActionBotChallenge(Action):
+    def name(self) -> Text:
+        return "action_bot_challenge"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        intent = tracker.get_intent_of_latest_message()
+        msg = {
+            "intent": intent,
+            "responses": "Did I actually make you wonder whether I'm a bot or not?",
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return []
+
