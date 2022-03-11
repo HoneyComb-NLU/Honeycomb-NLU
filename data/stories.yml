@@ -83,4 +83,9 @@ stories:
   - intent: goodbye
   - action: action_goodbye
 
-
+- story: greet and chart
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: simple_chart
+  - action: action_simple_chart

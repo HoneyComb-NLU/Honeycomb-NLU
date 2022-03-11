@@ -30,9 +30,9 @@ coin_ids = []
 coin_symbol = []
 coin_names = []
 for i in all_coins:
-    coin_ids.append(i[0])
-    coin_symbol.append(i[1])
-    coin_names.append(i[2].lower())
+    coin_ids.append(i['id'])
+    coin_symbol.append(i['symbol'])
+    coin_names.append(i['name'].lower())
 currencies = [a for a in currencies]
 
 yaml = YAML()
@@ -117,7 +117,8 @@ class ActionSearchCoin(Action):
             "intent": tracker.get_intent_of_latest_message(),
             "slots": {
                 "coins": choices,
-                "currencies": []
+                "currencies": [],
+                "time" : ""
             },
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
@@ -153,7 +154,8 @@ class ActionFetchPrice(Action):
             "intent": intent,
             "slots": {
                 "coins": coins,
-                "currencies": currencies
+                "currencies": currencies,
+                "time": ""
             },
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
@@ -258,3 +260,46 @@ class ActionBotChallenge(Action):
         dispatcher.utter_message(json_message=msg)
         return []
 
+
+class ActionSimpleChart(Action):
+
+    def name(self) -> Text:
+        return "action_simple_chart"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        coin_raw = tracker.get_slot('coin')
+        currency_raw = tracker.get_slot('currency')
+        time_raw = tracker.get_slot('time')
+        if not coin_raw:
+            coin_raw = []
+        if not currency_raw:
+            currency_raw = []
+        if not time_raw:
+            time_raw = ""
+
+
+        coins = [i.lower() for i in list(set(coin_raw))]
+        print(coins)
+        currencies = [i.lower() for i in list(set(currency_raw))]
+        print(currencies)
+        choices = find_valid_options(coins, currencies)
+
+        coins = choices['coins']
+        currencies = choices['currencies']
+        print(coins, currencies)
+
+        intent = tracker.get_intent_of_latest_message()
+        msg = {
+            "intent": intent,
+            "slots": {
+                "coins": coins,
+                "currencies": currencies,
+                "time": time_raw
+            },
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return [SlotSet("coin", None), SlotSet("currency", None), SlotSet("time", None)]
+    

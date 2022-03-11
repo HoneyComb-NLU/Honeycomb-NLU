@@ -13,10 +13,17 @@ slots:
     mappings: 
     - type: from_entity
       entity: currency
+  time:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: time
 
 entities:
   - coin
   - currency
+  - time
 
 intents:
   - greet
@@ -28,6 +35,8 @@ intents:
       use_entities: ["coin"]
   - simple_coin_price:
       use_entities: ["coin", "currency"]
+  - simple_chart:
+      use_entities: ["coin", "currency", "time"]
   - mood_unhappy
   - bot_challenge
   - need_help
@@ -36,6 +45,7 @@ intents:
 actions:
   - action_search_coin
   - action_fetch_price
+  - action_simple_chart
   - action_greet
   - action_help
   - action_happy

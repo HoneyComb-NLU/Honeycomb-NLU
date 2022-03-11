@@ -5,7 +5,7 @@ from ruamel.yaml.comments import CommentedMap as OrderedDict
 import sys
 import requests
 
-data = requests.get("https://api.coingecko.com/api/v3/simple/supported_vs_currencies").json()
+data = requests.get("https://api.coingecko.com/api/v3/coins/list").json()
 coin_ids = []
 coin_names = []
 

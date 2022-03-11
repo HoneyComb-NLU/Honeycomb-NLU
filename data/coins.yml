@@ -109,6 +109,7 @@ nlu:
     - 19996 joann
     - 1art
     - 1bch
+    - 1beam
     - 1box
     - 1doge
     - 1 dollar
@@ -268,6 +269,7 @@ nlu:
     - 4jnet
     - 4mw
     - 4new
+    - 4play
     - 4 stock
     - 50cent
     - 50k
@@ -281,6 +283,7 @@ nlu:
     - 6ix9ine chain
     - 7eleven
     - 7plus coin
+    - 7share
     - 7up
     - 808ta token
     - 8181 bliss
@@ -346,6 +349,7 @@ nlu:
     - aavegotchi
     - aave gusd
     - aave interest bearing ampl
+    - aave interest bearing steth
     - aave knc
     - aave knc v1
     - aave link
@@ -405,6 +409,7 @@ nlu:
     - aced
     - aced 2
     - acent
+    - acetoken
     - acet token
     - ac exchange token
     - achain
@@ -465,6 +470,7 @@ nlu:
     - aeon
     - aerdrop
     - aergo
+    - aerochain
     - aeron
     - aerotoken
     - aerotyne
@@ -479,14 +485,11 @@ nlu:
     - affyn
     - afin coin
     - afreum
-    - africa trading chain
     - afrix
     - afro
     - afrodex
     - afrodex labs token
     - afrostar
-    - afterback
-    - afterburn
     - aga carbon credit
     - aga carbon rewards
     - again project
@@ -506,6 +509,7 @@ nlu:
     - aggregatedfinance
     - agile
     - agoras currency of tau
+    - agora token
     - agouti
     - agpc
     - agrello
@@ -538,11 +542,11 @@ nlu:
     - airdrop world
     - airight
     - airnft token
+    - airpay
     - airraid lottery token
     - air shiba
     - airswap
     - aisf
-    - ai tech
     - aitra
     - aiwork
     - ajeverse
@@ -589,6 +593,7 @@ nlu:
     - alien shiba inu
     - alien worlds
     - alien worlds bsc
+    - alightpay
     - alinx
     - alis
     - a list royale
@@ -624,6 +629,7 @@ nlu:
     - alpaca usd
     - alpha5
     - alpha brain capital
+    - alpha brain capital 2
     - alphacat
     - alphacoin
     - alpha coin
@@ -632,18 +638,21 @@ nlu:
     - alpha finance
     - alpha kombat
     - alphalink
+    - alpha nodes
     - alpha platform
     - alpha quark token
     - alpha rome
     - alpha shiba inu
     - alphr
+    - alpine f1 team fan token
     - altafin
+    - altair
     - altbase
     - alt coin
     - altcommunity coin
-    - altcrusaders
     - alter
     - altera
+    - altera social
     - altered protocol
     - alternatemoney
     - alt estate
@@ -656,6 +665,7 @@ nlu:
     - amasa
     - amaten
     - amateras
+    - amazingdoge
     - amazonacoin
     - amber
     - ambire wallet
@@ -663,7 +673,9 @@ nlu:
     - amepay
     - american shiba
     - americanstaff inu
+    - amerikan pitbull terrier
     - ameru dao
+    - amethyst
     - amis
     - amix
     - ammyi coin
@@ -676,9 +688,11 @@ nlu:
     - ampleforth governance token
     - ampleforth wormhole
     - ampleswap
+    - amplify
     - ampnet
     - amp token
     - amp wormhole
+    - amun defi index
     - amun defi momentum index
     - amy finance
     - amz coin
@@ -691,10 +705,12 @@ nlu:
     - ancient kingdom
     - ancient warrior
     - andromeda
+    - andronodes
     - anduschain
     - angelheart token
     - angel inu
     - angel nodes
+    - angel protocol
     - angelscreed
     - angle protocol
     - angryb
@@ -740,6 +756,7 @@ nlu:
     - any blocknet
     - anypad
     - anyprinter
+    - anysniper
     - anyswap
     - aok
     - aos
@@ -751,6 +768,7 @@ nlu:
     - apefund
     - ape fun token
     - ape in
+    - ape_in_records
     - apelab
     - apenft
     - ape punk
@@ -758,6 +776,7 @@ nlu:
     - apes token
     - apeswap finance
     - apetoken
+    - ape universe
     - ape x
     - apex army
     - apexit finance
@@ -766,6 +785,7 @@ nlu:
     - apidai network
     - apix
     - apm coin
+    - apocalypse
     - apollo
     - apollo coin
     - apollo dao
@@ -779,10 +799,12 @@ nlu:
     - appics
     - apple
     - apple finance
+    - apple fruit
     - apple network
     - apple protocol token
     - appleswap
     - apr coin
+    - apreum
     - apricot
     - april
     - apron
@@ -800,6 +822,7 @@ nlu:
     - aquariuscoin
     - aquarius fi
     - arabic
+    - arable protocol
     - arabtycoon
     - aragon
     - arank
@@ -818,8 +841,11 @@ nlu:
     - arbix finance
     - arbucks
     - arbys
+    - arc
     - arcade
     - arcadenetwork
+    - arcader
+    - arcadetoken
     - arcadium
     - arcana
     - arcana token
@@ -837,6 +863,7 @@ nlu:
     - arcs
     - arcticcoin
     - arctic finance
+    - arc token
     - ardana
     - ardcoin
     - ardor
@@ -858,11 +885,15 @@ nlu:
     - ark
     - arkadiko protocol
     - arkania protocol
+    - arkarus
     - arker 2
+    - ark of the universe
+    - ark rivals
     - armada
     - armor
     - armor nxm
     - armours
+    - army node finance
     - armzlegends
     - around network
     - arowana token
@@ -875,13 +906,16 @@ nlu:
     - art blocks curated fidenza 855
     - art blocks curated full set
     - artbyte
+    - arte
     - artem
     - artemis
+    - artemis vision
     - arteq nft investment fund
     - artery
     - artex
     - artfinity token
     - arth
+    - arth valuecoin
     - articuno inu
     - artificial intelligence
     - artii token
@@ -905,9 +939,12 @@ nlu:
     - asd
     - asec frontier
     - asgard dao
+    - asgard dao v2
     - asgardian aereus
     - ash
+    - ashare
     - ashera
+    - ash token
     - asia coin
     - asia pacific electronic coin
     - asimi
@@ -918,9 +955,9 @@ nlu:
     - aspire
     - aspo world
     - as roma fan token
+    - assangedao
     - assemble protocol
     - asset backed protocol
-    - assgard
     - asta
     - astar
     - aster
@@ -931,6 +968,7 @@ nlu:
     - astral farm
     - astralis
     - astrapad
+    - astra protocol 2
     - astro
     - astrobirdz
     - astrodonkey
@@ -955,11 +993,11 @@ nlu:
     - ata token
     - atauro
     - atbcoin
-    - atd
     - at finance
     - atheios
     - athena money
     - athena money owl
+    - athenas
     - atheneum
     - ath games
     - athletex
@@ -973,6 +1011,7 @@ nlu:
     - atlas protocol
     - atlas usv
     - atletico madrid
+    - atlo
     - atmos
     - atn
     - atomic token
@@ -1000,6 +1039,7 @@ nlu:
     - aureus nummus gold
     - aureus token
     - auric network
+    - aurigami
     - aurix
     - aurora
     - auroracoin
@@ -1017,20 +1057,20 @@ nlu:
     - aurusgold
     - aurus silver
     - ausd
+    - australian crypto coin green
     - australian kelpie
     - australian safe shepherd
     - auto
     - autobahn
+    - autobahn network
     - autobitco token
     - autobusd
     - autocrypto
-    - autoglyph 271
     - automata
     - automatic network
     - automaticup
     - autonio
     - autoshark
-    - autostake
     - autz token
     - auxilium
     - avakus
@@ -1053,6 +1093,7 @@ nlu:
     - avaware usd
     - avax 1x
     - avax capital node
+    - avaxdao
     - avaxlauncher
     - avaxtars
     - avaxup
@@ -1061,6 +1102,7 @@ nlu:
     - avinoc
     - avme
     - avnrich
+    - avocadocoin
     - axe
     - axel
     - axentro
@@ -1098,21 +1140,19 @@ nlu:
     - baby alpaca
     - baby alucard
     - babyarmy
-    - babyavengers
     - baby bali
     - babybanana
-    - babybilz
     - babybitcoin
     - baby bitcoin
     - babybnb
     - baby bonfire
     - babyboo
     - baby boxer
-    - babybsc
     - babybusd
     - baby cake
     - babycare
     - babycasper
+    - baby catcoin
     - babycatgirl
     - baby cat girl
     - baby cheems inu
@@ -1136,7 +1176,6 @@ nlu:
     - babyethereum
     - babyeth v2
     - baby everdoge
-    - baby falcon doge
     - babyfeg
     - babyfloki
     - baby floki
@@ -1158,20 +1197,19 @@ nlu:
     - babylink
     - baby lion
     - babylondao
-    - babylondon
     - babylon finance
     - babylons
+    - baby lovely inu
     - baby meta
     - baby mind
     - baby moon floki
     - baby moon wolf
     - baby o baby
     - baby panda
-    - babypenguin
     - baby pig token
+    - baby pokemoon
     - baby poocoin
     - babypumpkin finance
-    - babypunks
     - babyquick
     - baby ripple
     - baby ryukyu inu
@@ -1203,6 +1241,7 @@ nlu:
     - baby trump
     - babyusdt
     - babywakandainu
+    - babywhale
     - baby white hamster
     - babywhitetiger
     - baby woj
@@ -1235,7 +1274,8 @@ nlu:
     - bakerytoken
     - bakerytools
     - bake up
-    - bakumatsu swap finance
+    - baklava
+    - baksdao
     - balanced dollars
     - balancer
     - balance tokens
@@ -1267,7 +1307,6 @@ nlu:
     - bancor wormhole
     - band protocol
     - bang decentralized
-    - bank btc
     - bankcoincash
     - bankera
     - bankerdoge
@@ -1278,7 +1317,6 @@ nlu:
     - bankless dao
     - bankless defi innovation index
     - banklife
-    - bankroll
     - bankroll extended token
     - bankroll network
     - bankroll vault
@@ -1297,6 +1335,7 @@ nlu:
     - based finance
     - based gold
     - based money
+    - based shares
     - based token
     - base protocol
     - base reward token
@@ -1314,21 +1353,27 @@ nlu:
     - basis markets
     - basis share
     - basketball legends
+    - basketballverse
     - basketcoin
     - basketdao
     - basketdao defi index
+    - bastille de la bouje
+    - bastion protocol
     - bata
     - batman
     - batorrent
     - battle esports coin
     - battle hero
+    - battle inu
     - battle of guardians share
     - battle pets
     - battleroyaletoken
     - battle saga
+    - battleverse
     - bayc history
     - bayc vault nftx
     - bbscoin
+    - bbs network
     - bchpad
     - bcpay fintech
     - b cube ai
@@ -1360,7 +1405,6 @@ nlu:
     - beefy finance
     - beekan
     - beenode
-    - beer inu
     - beer money
     - bee safe
     - beethoven x
@@ -1385,7 +1429,9 @@ nlu:
     - benchmark protocol governance token
     - benddao
     - benepit
+    - bengals
     - benqi
+    - benqi liquid staked avax
     - bent finance
     - benzene
     - bep20 leo
@@ -1405,6 +1451,7 @@ nlu:
     - betdice
     - betherchip
     - bethereum
+    - betify
     - betller coin
     - betswamp
     - betswap gg
@@ -1422,6 +1469,7 @@ nlu:
     - bfg token
     - bfk warzone
     - bgan vault nftx
+    - bgl token
     - bgogo
     - bgov
     - bholdus token
@@ -1448,6 +1496,7 @@ nlu:
     - bigfoot
     - big fund capital dao
     - big league
+    - big mouth monster
     - bigo token
     - bigshortbets
     - bigwinner
@@ -1602,7 +1651,6 @@ nlu:
     - bitcoin stash
     - bitcoin subsidium
     - bitcoin token
-    - bitcoin trc20
     - bitcoin trust
     - bitcoin ultra
     - bitcoinv
@@ -1612,6 +1660,7 @@ nlu:
     - bitcoinx 2
     - bitcoinz
     - bitcoiva
+    - bitcolojix
     - bitcomine
     - bitcomo
     - bitconnect
@@ -1634,7 +1683,6 @@ nlu:
     - bitgem
     - bitgesell
     - bitget token
-    - bitgrit
     - bitguild
     - bithachi
     - bithashex
@@ -1759,6 +1807,7 @@ nlu:
     - blockchain of hash power
     - blockchainpoland
     - blockchain property
+    - blockchain protocol
     - blockchain quotations index token
     - blockchainspace
     - block commerce protocol
@@ -1778,9 +1827,12 @@ nlu:
     - blockport
     - blocks
     - blockspace token
+    - blocksport
+    - blocksquare
     - blockstack
     - blockstamp
     - blockster
+    - blockstream mining notes
     - blockswap network
     - blocktanium
     - blocktix
@@ -1797,6 +1849,7 @@ nlu:
     - blood token
     - bloody shiba
     - bloom
+    - bloom token
     - bloomzed token
     - blossomcoin
     - blowup
@@ -1821,6 +1874,7 @@ nlu:
     - bluzelle
     - bmchain token
     - bnb48 club token
+    - bnbback
     - bnb bank
     - bnb cash
     - bnb diamond
@@ -1829,7 +1883,6 @@ nlu:
     - bnbheroes token
     - bnbhunter
     - bnb hyper rise
-    - bnbrain
     - bnbrise
     - bnb shinobi
     - bnb superheroes
@@ -1845,6 +1898,7 @@ nlu:
     - bnx finex
     - bobadoge
     - boba network
+    - bobatama
     - bobo cash
     - bobs_repair
     - boda token
@@ -1886,7 +1940,9 @@ nlu:
     - bongweedcoin
     - bonorum coin
     - bonus cake
+    - bonuz
     - boobank
+    - booby trap
     - boocake
     - boo finance
     - boolberry
@@ -1903,7 +1959,7 @@ nlu:
     - boozedoge
     - bora
     - borealis
-    - bored ark
+    - bored ape social club
     - bored battle apes
     - bored floki yacht club
     - bored museum
@@ -1927,6 +1983,7 @@ nlu:
     - bounty0x
     - bountymarketcap
     - boutspro
+    - bovineverse
     - bowscoin
     - boxaxis
     - boxerdoge
@@ -1934,6 +1991,7 @@ nlu:
     - box token
     - bozkurt token
     - b protocol
+    - br34p
     - brainiac
     - braintrust
     - brandpad finance
@@ -1945,6 +2003,7 @@ nlu:
     - breezecoin
     - brewlabs
     - bribe
+    - bribe token 2
     - brick
     - brickchain finance
     - brick token
@@ -1961,11 +2020,12 @@ nlu:
     - brmv token
     - brokoli
     - brother music platform
+    - bro token
     - browniesswap
-    - bruce non fungible token
     - brz
     - bsc33dao
     - bscarmy
+    - bscbay
     - bscbond
     - bsccrop
     - bscex
@@ -1982,6 +2042,7 @@ nlu:
     - bsocial
     - bsys
     - btc 2x flexible leverage index
+    - btc 2x flexible leverage index polygon
     - btc lite
     - btcmoon
     - btc network demand set ii
@@ -2014,10 +2075,12 @@ nlu:
     - buffswap
     - bugg finance
     - bugg inu
+    - buildercoin
     - build finance
     - buildin
     - buildup
     - bukh
+    - bul finance
     - bulk network
     - bullchain
     - bull coin
@@ -2028,11 +2091,13 @@ nlu:
     - bulleon
     - bulleth
     - bullex
+    - bullieverse
     - bull inu
     - bullion
     - bullionfx
     - bullish af
     - bullishapes
+    - bullit
     - bullperks
     - bullrise
     - bullrun2 0
@@ -2087,7 +2152,6 @@ nlu:
     - bxiot
     - bxmi token
     - byakko
-    - bycoin
     - byteball
     - bytecoin
     - bytedex
@@ -2105,6 +2169,7 @@ nlu:
     - cache gold
     - cacti club
     - cad coin
+    - caesar finance
     - cafeswap token
     - cage
     - cage governance
@@ -2135,6 +2200,7 @@ nlu:
     - canaryx
     - candela coin
     - can devs do something please
+    - candle
     - candylad
     - cannabiscoin
     - cannabis seed token
@@ -2157,7 +2223,6 @@ nlu:
     - carat
     - carbon
     - carboncoin
-    - carbon coin
     - carbondefi
     - carboneco
     - carbon finance
@@ -2168,7 +2233,6 @@ nlu:
     - cardano
     - cardanoevo
     - cardanomics
-    - cardanopad
     - cardashift
     - cardax
     - cardence
@@ -2178,6 +2242,7 @@ nlu:
     - cardwallet
     - care coin
     - cargo gems
+    - cargolink
     - cargox
     - caribmarsx
     - carma coin
@@ -2212,10 +2277,14 @@ nlu:
     - caspian
     - castweet
     - cat
+    - catapult
     - catbonk
     - catboy
+    - catboy 2
     - catbread
     - catchy
+    - catcoin 2
+    - catcoin token
     - catecoin
     - catemoon inu
     - catena x
@@ -2246,6 +2315,7 @@ nlu:
     - ccuniverse
     - cdai
     - cdzexchange
+    - cedars
     - ceek
     - ceezee safu
     - celcoin
@@ -2253,6 +2323,7 @@ nlu:
     - celer network
     - celery
     - celestial
+    - celestial unity
     - celeum
     - celletf
     - cellframe
@@ -2263,6 +2334,9 @@ nlu:
     - celostarter
     - celsius degree token
     - celsius wormhole
+    - celsiusx wrapped ada
+    - celsiusx wrapped doge
+    - celsiusx wrapped eth
     - centaur
     - centaurify
     - centcex
@@ -2293,10 +2367,12 @@ nlu:
     - chads vc
     - chai
     - chain
+    - chain 2
     - chainbing
     - chaincade
     - chaincoin
     - chain colosseum
+    - chain estate dao
     - chainfi
     - chainflix
     - chain flowers
@@ -2336,15 +2412,18 @@ nlu:
     - checoin
     - chedda
     - chee
+    - cheebs
     - cheecoin
     - cheems
     - cheems inu
+    - cheersland
     - cheesecakeswap
     - cheesedao
     - cheesefry
     - cheesesoda token
     - cheeseswap
     - cheese swap
+    - cheese token
     - cheesus
     - chefcake
     - chellitcoin
@@ -2379,15 +2458,19 @@ nlu:
     - chimaera
     - chimeras
     - chimp fight
+    - chinaom
+    - chinu
     - chip
     - chipstars
     - chipz
     - chiva token
     - chives coin
     - chiwawa
+    - choice coin
     - chonk
     - chopper inu
     - chord protocol
+    - chorusx
     - chow chow finance
     - chowdao
     - chow inu
@@ -2399,7 +2482,6 @@ nlu:
     - chronologic
     - chubbies
     - chubbyakita
-    - chubbydoge
     - chug token
     - chumbai valley
     - chum coin
@@ -2431,7 +2513,6 @@ nlu:
     - civic power
     - civilization
     - clams
-    - clash of cars
     - clash token
     - classicbitcoin
     - classicdoge
@@ -2442,6 +2523,7 @@ nlu:
     - cleardao
     - clearpoll
     - clearpool
+    - clear water
     - clexchain
     - clientelecoin
     - clifford inu
@@ -2452,6 +2534,7 @@ nlu:
     - clock vault nftx
     - cloud9bsc finance
     - cloudbric
+    - cloudname
     - cloud protocol
     - cloutcontracts
     - clover
@@ -2477,10 +2560,13 @@ nlu:
     - cocktailbar
     - cocos bcx
     - coco swap
+    - code4rena
+    - code7
     - codeo token
     - codex
     - codex finance
     - codi finance
+    - codyfight
     - coffe 1 st round
     - coffeecoin
     - coffin dollar
@@ -2504,8 +2590,11 @@ nlu:
     - coindeal token
     - coin discovery
     - coindom
+    - coinerr
     - coinex token
+    - coin fast alert
     - coinfi
+    - coinfield coin
     - coinfirm amlt
     - coinflect
     - coinfresh
@@ -2523,6 +2612,7 @@ nlu:
     - coin of nature
     - coin of the champions
     - coinone token
+    - coin on file token
     - coinpad
     - coinpoker
     - coinracer
@@ -2540,6 +2630,7 @@ nlu:
     - cointribe
     - cointribute
     - coinversation
+    - coinwealth
     - coinweb
     - coinwind
     - coinxpad
@@ -2548,7 +2639,6 @@ nlu:
     - coldbank
     - cold finance
     - coldstack
-    - collar dobe defender
     - collateral pay
     - collateral pay governance
     - collectcoin
@@ -2556,7 +2646,7 @@ nlu:
     - collector coin
     - collegecoinnetwork
     - collegicoin
-    - colligo token
+    - colligo
     - colony
     - colony network token
     - colossuscoinxt
@@ -2576,15 +2666,18 @@ nlu:
     - community doge coin
     - community metaverse
     - communitytoken
+    - community vote power
     - comodo coin
     - compendium fi
     - complifi
     - component
     - compound 0x
     - compound basic attention token
+    - compound chainlink token
     - compound coin
     - compound ether
     - compound governance token
+    - compound maker
     - compound sai
     - compound sushi
     - compound uniswap
@@ -2599,15 +2692,18 @@ nlu:
     - concentrated voting power
     - concertvr
     - concierge io
+    - concordium
     - concrete codes
     - conegame
     - conflux token
+    - congruent dao token
     - conjee
     - connect coin
     - connect financial
     - connectico
     - connectjob
     - connectome
+    - connector coin
     - conqueror
     - consentium
     - constellation labs
@@ -2628,6 +2724,7 @@ nlu:
     - convex finance wormhole
     - cook
     - cool cats
+    - coolmining
     - cool monke banana
     - cool vault nftx
     - cope
@@ -2638,8 +2735,10 @@ nlu:
     - coral swap
     - cord finance
     - core
+    - coredao
     - corestarter
     - coreto
+    - coreum
     - corgicoin
     - corgidoge
     - corgi inu
@@ -2682,13 +2781,16 @@ nlu:
     - cover protocol
     - covesting
     - covicoin
+    - covid doge
     - covid slice
     - covid token
     - cowboy snake
+    - cowcoin
     - cow inu
     - cowry
     - coxswap
     - cpchain
+    - cplay network
     - cpos cloud payment
     - cprop
     - cpuchain
@@ -2716,8 +2818,10 @@ nlu:
     - cream wormhole
     - creaticles
     - creativecoin
+    - creator cabins
     - creator platform
     - creator protocol
+    - creature_hunters
     - creda
     - credefi
     - credit
@@ -2728,6 +2832,7 @@ nlu:
     - creditum
     - credmark
     - creds
+    - cresio
     - crespo
     - crevacoin
     - crex token
@@ -2735,19 +2840,24 @@ nlu:
     - cricket foundation
     - crimecash
     - crimegold
-    - criptoro coin
     - crir msh
     - croat
+    - crobank
     - croblanc
+    - crocash
     - crodex
+    - croeth
     - croissant games
     - croking
+    - crolambos
     - cromoon
     - cronaswap
     - cronodes
     - cronofi finance
     - cronosphere
     - cronos stable swap
+    - cronos wormhole
+    - cronus finance
     - cropbytes
     - cropperfinance
     - cro predict
@@ -2762,12 +2872,15 @@ nlu:
     - crossswap
     - crosswallet
     - crossy animals
+    - crowd
     - crowdclassic
     - crowdhero
     - crowd machine
+    - crowdswap
     - crown
     - crowns
     - crown sovereign
+    - crown token
     - crowny token
     - crow token
     - croxswap
@@ -2778,6 +2891,7 @@ nlu:
     - crusaders of crypto
     - crust network
     - crust storage market
+    - cryb
     - crybet
     - crycash
     - cry coin
@@ -2799,8 +2913,8 @@ nlu:
     - cryptoart ai
     - cryptoball
     - crypto bank
-    - crypto bank coin
     - crypto bank token
+    - cryptobattles
     - cryptobay
     - crypto bay
     - cryptobeast
@@ -2826,8 +2940,8 @@ nlu:
     - cryptoclans
     - crypto classic
     - crypto com chain
-    - crypto com coin wormhole
     - cryptocricketclub
+    - cryptocurrency market index
     - cryptocurrency top 10 tokens index
     - crypto development services
     - cryptodicehero
@@ -2845,18 +2959,20 @@ nlu:
     - cryptoflow
     - cryptoforspeed
     - cryptofranc
+    - cryptogamez
     - crypto gaming united
+    - cryptogangsters
     - cryptogcoin
     - crypto gladiator shards
     - crypto global bank
     - cryptogodz
     - cryptogram
-    - cryptographic ultra money
     - cryptoguards
     - cryptoheadz
     - crypto holding frank token
     - cryptohorse
-    - crypto hounds
+    - cryptoids admin coin
+    - cryptoids game coin
     - cryptoindex io
     - crypto inu
     - crypto island
@@ -2897,11 +3013,13 @@ nlu:
     - cryptopunk 7171 hoodie
     - cryptopunt
     - crypto raiders
+    - crypto realms war
     - cryptorewards
     - cryptorg token
     - crypto rocket launch
     - cryptorockets
     - crypto royale
+    - cryptorpg
     - cryptorun network
     - cryptosaga
     - crypto shield
@@ -2910,7 +3028,6 @@ nlu:
     - crypto soccer
     - cryptosoul
     - crypto sports
-    - cryptosummoner
     - cryptosword
     - cryptotanks
     - cryptotankz
@@ -2923,6 +3040,7 @@ nlu:
     - cryptoverificationcoin
     - crypto village accelerator
     - crypto village accelerator cvag
+    - crypto volatility token
     - cryptovszombie
     - cryptowar xblade
     - cryptowolf
@@ -2943,13 +3061,15 @@ nlu:
     - csp dao network
     - cspro chain
     - ctc
-    - c token
+    - c token 2
     - ctomorrow platform
     - cts coin
     - cube
+    - cube token
     - cub finance
     - cubiex
     - cubiex power
+    - cubo
     - cudl finance
     - cudos
     - cuex
@@ -2960,6 +3080,7 @@ nlu:
     - culture ticket chain
     - cuminu
     - cumrocket
+    - cupid farm
     - curate
     - curecoin
     - cure token v2
@@ -2993,6 +3114,7 @@ nlu:
     - cybertronchain
     - cybervein
     - cybex
+    - cybloc battery token
     - cyborg apes
     - cycan network
     - cycle punk
@@ -3001,10 +3123,12 @@ nlu:
     - cyclops treasure
     - cyclos
     - cy finance
+    - cyn c
     - cyop protocol
     - cypherium
     - czdiamond
     - czfarm
+    - czusd
     - d3
     - dacc
     - dacsee
@@ -3029,17 +3153,19 @@ nlu:
     - daikokuten sama
     - daily cop
     - dain token
+    - dairy money milk
     - dai stablecoin wormhole
     - daisy
     - dai wormhole
     - dalecoin
     - dali
+    - dama
     - damn token
     - danat coin
     - dandy
-    - danecoin
     - dangermoon
     - dao1
+    - daobao
     - daohaus
     - dao invest
     - daoland
@@ -3059,16 +3185,20 @@ nlu:
     - dappstore
     - dappsy
     - daps token
+    - darcmatter coin
     - dar dex token
     - darenft
+    - dareplay
     - darkbuild v2
     - darkcoin
     - darkcrypto
     - darkcrypto share
     - dark energy crystals
     - dark frontiers
+    - darkknight
     - dark magic
     - darkmagick
+    - darkmatter
     - dark matter
     - dark matter defi
     - dark matter token
@@ -3097,7 +3227,6 @@ nlu:
     - data trade on demand platform
     - datum
     - datx
-    - daughter doge
     - dav
     - davinci coin
     - davinci token
@@ -3108,7 +3237,9 @@ nlu:
     - dawn wars
     - day by day
     - day of defeat
+    - dbquest
     - dbx 2
+    - dchess king
     - dcoin token
     - d community
     - dctdao
@@ -3120,6 +3251,7 @@ nlu:
     - debase
     - debio network
     - debitum network
+    - deblox
     - decentbet
     - decent database
     - decentr
@@ -3135,6 +3267,7 @@ nlu:
     - decentralized autonomous organization
     - decentralized community investment protocol
     - decentralized currency assets
+    - decentralized etf
     - decentralized machine learning
     - decentralized mining exchange
     - decentralized nations
@@ -3164,12 +3297,12 @@ nlu:
     - deez nuts
     - defactor
     - defender of doge
-    - deffect
     - defhold
     - defi11
     - defiai
     - defiant
     - defiat
+    - defiato
     - defibank money
     - defi bank tycoon
     - defibay
@@ -3182,11 +3315,11 @@ nlu:
     - deficliq
     - defi coin
     - deficonnect
-    - defi cover and risk index
     - defi degen land
     - defido
     - defidollar
     - defidollar dao
+    - defi empire gold
     - defi for you
     - defi gold
     - defihelper governance token
@@ -3225,7 +3358,6 @@ nlu:
     - defixbet
     - defi yield protocol
     - deflect
-    - defpace
     - defrost finance
     - defycoinv2
     - defydefi
@@ -3237,6 +3369,7 @@ nlu:
     - degen arts
     - degenerate money
     - degenerator
+    - degen finance
     - degen index
     - degen protocol token
     - degenvc
@@ -3250,7 +3383,6 @@ nlu:
     - deimos token
     - deipool
     - dei token
-    - dejave
     - dekbox
     - deku inu
     - deligence
@@ -3260,6 +3392,7 @@ nlu:
     - delphy
     - deltachain
     - delta exchange token
+    - deltafi
     - delta financial
     - deltaflip
     - deltahub community
@@ -3294,9 +3427,9 @@ nlu:
     - deswap
     - dether
     - detik
-    - detox
     - deus finance 2
     - deutsche emark
+    - deuxpad
     - deva token
     - devault
     - devery
@@ -3305,11 +3438,14 @@ nlu:
     - devikins
     - devil finance
     - devil token
+    - devious licks gold
     - devita global
+    - devium
     - devolution
     - devour
     - dev protocol
     - dexa coin
+    - dexalot
     - dexbrowser
     - dexchain
     - dexe
@@ -3324,6 +3460,7 @@ nlu:
     - dexlab
     - dexmex
     - dexpad
+    - dexscrow
     - dexsport
     - dextf
     - dextoken governance
@@ -3386,12 +3523,14 @@ nlu:
     - digies coin
     - digifinextoken
     - digifit
+    - digimetaverse
     - digimoney
     - diginu
     - digipharm
     - digital bank of africa
     - digitalbits
     - digitalcoin
+    - digitaldollar
     - digital fantasy sports
     - digital financial exchange
     - digital money bits
@@ -3402,6 +3541,7 @@ nlu:
     - digital swis franc
     - digital ticks
     - digitex futures exchange
+    - digits dao
     - digiwill
     - digixdao
     - digix gold
@@ -3421,6 +3561,7 @@ nlu:
     - dino
     - dinoegg
     - dino exchange
+    - dinoland
     - dinopark
     - dinosaureggs
     - dinoswap
@@ -3460,6 +3601,7 @@ nlu:
     - dna genesys
     - dna share
     - dnaxcat
+    - dnd metaverse
     - dnft protocol
     - dobermann
     - dock
@@ -3469,14 +3611,15 @@ nlu:
     - doex
     - dofi
     - dog
+    - dog 2
     - dog club token
     - dog collar
     - dogdeficoin
+    - doge 1 mission to the moon
     - doge alliance
     - doge army token
     - dogebnb org
     - dogebonk
-    - dogebull
     - dogecash
     - dogecoin
     - dogecoin 2
@@ -3485,10 +3628,12 @@ nlu:
     - dogecube
     - dogedao
     - doge dash
+    - dogedead
     - dogedealer
     - dogedi
     - dogedrinks
     - dogefather
+    - dogefather token
     - dogefi
     - doge floki coin
     - dogefood
@@ -3504,15 +3649,16 @@ nlu:
     - dogelana
     - dogelon mars
     - dogelon mars wormhole
+    - doge lumens
     - dogeman
     - dogemania
     - dogematic
     - dogemon go
-    - dogemongo solana
     - dogemoon
     - doge ninja samurai
     - dogeon
     - dogepepsi
+    - doge protocol
     - doge raca
     - doge rise up
     - dogerocket
@@ -3522,6 +3668,7 @@ nlu:
     - dogestribute
     - doge superbowl
     - dogeswap
+    - dogetama
     - dogethefloki
     - doge token
     - doge universe
@@ -3530,18 +3677,19 @@ nlu:
     - dogewarrior
     - dogewhale
     - dogewhisky
+    - doge x
     - doge yellow coin
     - dogeyield
     - dogey inu
     - dogezero
     - dogezilla
     - doge zilla
-    - dogezoo
     - doggy
     - doggystyle coin
     - doggy swap
     - dogira
     - dogkage
+    - dogs
     - dogsofelon
     - dogswap token
     - dogus
@@ -3554,8 +3702,10 @@ nlu:
     - doki doki finance
     - dok token
     - dola usd
+    - dollardoge
     - dollar online
     - dollars
+    - dollypad finance
     - domain coin
     - domi
     - domraider
@@ -3576,7 +3726,6 @@ nlu:
     - dopewarz
     - dopex
     - dopex rebate token
-    - dopple exchange token
     - dopple finance
     - doraemoninu
     - doraemoon
@@ -3589,14 +3738,19 @@ nlu:
     - dotc pro token
     - dot finance
     - dotmoovs
+    - do token
     - dotoracle
     - double ace
     - double bubble
     - doubledice token
+    - doubloon
+    - douge
     - dough
     - dovu
     - dowcoin
     - down bad
+    - down below
+    - doxed
     - doxxed
     - doxxed santa
     - dpk
@@ -3605,6 +3759,7 @@ nlu:
     - dracarys
     - drachen lord
     - drachma
+    - draco finance
     - draco force
     - dracoo point
     - dracula token
@@ -3624,7 +3779,9 @@ nlu:
     - dragonmoon
     - dragonmusk
     - dragon pool
+    - dragonsb
     - dragonsea
+    - dragons gamefi
     - dragon slayer
     - dragons quick
     - dragonvein
@@ -3639,10 +3796,12 @@ nlu:
     - drax
     - drc mobility
     - drdoge
+    - dreamdao
     - dreamr platform token
     - dreamscoin
     - dreams quest
     - dream swap
+    - dream token
     - dreamverse
     - d reit
     - drep new
@@ -3653,16 +3812,20 @@ nlu:
     - drops ownership power
     - drunkdoge
     - dry doge metaverse
+    - dshares
     - d skyscraper
     - dsys
     - dt dragon coin
+    - dtng
     - dtravel
     - dtube coin
     - ducato protocol token
     - duckdaodime
     - duckduck token
+    - duckie land multi metaverse
     - duckrocket
     - duck vault nftx
+    - duckydefi
     - duelist king
     - duel network
     - dukascoin
@@ -3675,17 +3838,18 @@ nlu:
     - dungeonswap
     - duo
     - duo 2
+    - durham inu
     - dusd network
     - dusk network
     - dust
     - dust token
-    - duxdoge
     - dvf
     - dvision network
     - dxbpay
     - dxchain
     - dxdao
     - dxsale network
+    - dx spot
     - dyakon
     - dydx
     - dydx wormhole
@@ -3697,8 +3861,8 @@ nlu:
     - dynamix
     - dynamo coin
     - dynasty global investments ag
+    - dyor
     - dyor token
-    - dyztoken
     - e1337
     - eaglecoin 2
     - eagle vision
@@ -3710,11 +3874,13 @@ nlu:
     - earnbusd
     - earndefi
     - earnfinex
+    - earnguild
     - earnhub
     - earn network
     - earnpay
     - earnscoin
     - earnx
+    - earnx v2
     - earnzcoin
     - earthbyt
     - earthchain
@@ -3736,6 +3902,7 @@ nlu:
     - ecc
     - ecchi coin
     - e chat
+    - echidna
     - echoin
     - echolink
     - echosoracoin
@@ -3759,6 +3926,7 @@ nlu:
     - ecosystem coin network
     - eco value coin
     - ecp technology
+    - edac
     - edc blockchain
     - eddaswap
     - eden
@@ -3807,7 +3975,6 @@ nlu:
     - electric vehicle direct currency
     - electric vehicle zone
     - electrify asia
-    - electrinity
     - electronero
     - electronero pulse
     - electroneum
@@ -3823,6 +3990,7 @@ nlu:
     - elevate
     - e leven
     - eleven finance
+    - elexir
     - elf token
     - eligma
     - elis
@@ -3844,6 +4012,7 @@ nlu:
     - elongrab
     - eloniumcoin
     - elonjet
+    - elonmoon
     - elonomics
     - elon peg
     - elons marvin
@@ -3857,6 +4026,7 @@ nlu:
     - elves century
     - elves continent
     - elya
+    - elyfi
     - elynet token
     - elysia
     - elysian
@@ -3864,6 +4034,7 @@ nlu:
     - elysium
     - emanate
     - embr
+    - emerald crypto
     - emercoin
     - eminer
     - emirex token
@@ -3881,14 +4052,18 @@ nlu:
     - empty set dollar
     - empyrean
     - emrals
+    - encocoinplus
     - encrypgen
     - endgame token
+    - endless battlefield
+    - endless battlefield coin
     - endor
     - endpoint cex fan token
     - enegra
     - energi
     - energo
     - energoncoin
+    - energy
     - energy8
     - energyfi
     - energy ledger
@@ -3899,6 +4074,7 @@ nlu:
     - engine token
     - enhanced liquidity konstrukt
     - enhance token
+    - enhance v2
     - enigma
     - enigma dao
     - enjincoin
@@ -3919,6 +4095,7 @@ nlu:
     - envida
     - envion
     - enviro
+    - envision
     - envoy defi
     - envoy network
     - eos
@@ -3935,7 +4112,6 @@ nlu:
     - epichero
     - epik prime
     - epik protocol
-    - epochtoken
     - eqifi
     - equal
     - equalizer
@@ -3943,16 +4119,17 @@ nlu:
     - equilibrium eosdt
     - equitrader
     - equos origin
+    - era7
     - e radix
     - era swap token
     - erc20
     - erc223
     - erenyeagerinu
     - ergo
+    - erica social token
     - eristica
     - eron
     - eros
-    - eros token
     - eroverse
     - ertha
     - erth token
@@ -3997,6 +4174,7 @@ nlu:
     - etheking
     - ether 1
     - ethera 2
+    - ethera black
     - etherback
     - etherconnect
     - ethereans
@@ -4027,7 +4205,6 @@ nlu:
     - ethergem
     - etherinc
     - etherisc
-    - ether kingdoms token
     - etherland
     - ether legends
     - etherlite 2
@@ -4048,6 +4225,8 @@ nlu:
     - eth fan token
     - ethichub
     - ethlend
+    - eth max yield index
+    - eth note
     - ethorse
     - ethos
     - ethos project
@@ -4062,6 +4241,7 @@ nlu:
     - ethverse
     - ethzilla
     - etitanium
+    - etna metabolism
     - etna network
     - etor
     - etrade
@@ -4072,10 +4252,12 @@ nlu:
     - euphoria 2
     - eureka coin
     - eurocoinpay
+    - euronin
     - europecoin
     - euro stable token
     - eutaria
     - evagrow coin
+    - evai
     - evanesco network
     - evedo
     - eve exchange
@@ -4096,6 +4278,7 @@ nlu:
     - everipedia
     - everlens
     - evermars
+    - everprinter
     - everreflect
     - everrise
     - everscale
@@ -4113,6 +4296,7 @@ nlu:
     - evil coin
     - evil shiba inu
     - evilsquidgame
+    - evmos
     - evny token
     - evocardano
     - evolution
@@ -4123,6 +4307,7 @@ nlu:
     - evrice
     - evrynet
     - evulus
+    - excalibur
     - excavo finance
     - excelon
     - exchangecoin
@@ -4154,6 +4339,7 @@ nlu:
     - extradna
     - exzocoin
     - eyes protocol
+    - ezdex
     - ezystayz
     - fabric
     - fabwelt
@@ -4161,11 +4347,14 @@ nlu:
     - face vault nftx
     - factom
     - facts
+    - fado go
     - faircoin
+    - fairface
     - fairgame
     - fairlife
     - fairum
     - faithcoin
+    - faith tribe
     - falafel
     - falcon nine
     - falcon swaps
@@ -4185,24 +4374,28 @@ nlu:
     - fango
     - fangs
     - fang token
+    - fanitrade
     - fanscoin
     - fans of doge
     - fanspel
     - fans squid
     - fanstime
+    - fantasm fsm
+    - fantasm xftm
     - fantasy
     - fantasy doge
     - fantasy gold
-    - fantasy tales
     - fantasy world gold
     - fanterra
     - fantohm
+    - fantohm usd
     - fantom
     - fantom cake
     - fantom doge
     - fantom ethprinter
     - fantom frens
     - fantomgo
+    - fantom maker
     - fantom moon finance
     - fantom oasis
     - fantom of the opera apes
@@ -4235,10 +4428,13 @@ nlu:
     - fat satoshi
     - favecoin
     - fawkes mask
+    - fbomb
     - fc barcelona fan token
     - fc porto
+    - fdoge finance
     - fds
     - fear
+    - fear token
     - fear uncertainty doubt
     - feathercoin
     - fedoracoin
@@ -4248,6 +4444,7 @@ nlu:
     - feed pups
     - feed system
     - feed token
+    - feelcoin
     - fegnomics
     - feg token
     - feg token bsc
@@ -4258,6 +4455,7 @@ nlu:
     - fenerbahce token
     - fenix danjon
     - fenix finance
+    - fenomy
     - fera
     - ferret
     - ferrum network
@@ -4275,9 +4473,9 @@ nlu:
     - fiat dao token
     - fibos
     - fibo token
-    - fidenza 527
     - fidex exchange
     - fidira
+    - fief
     - fiestacoin
     - fiftyonefifty
     - filda
@@ -4289,6 +4487,8 @@ nlu:
     - filestar
     - filipcoin
     - fimi market inc
+    - final frontier
+    - finance blocks
     - finance vote
     - financial intelligence group token
     - financial investment token
@@ -4298,6 +4498,7 @@ nlu:
     - finexbox token
     - fingerprints
     - finminity
+    - fino dao
     - fins token
     - finswap
     - fintab
@@ -4305,6 +4506,7 @@ nlu:
     - fintrux
     - finxflo
     - fio protocol
+    - fira
     - firdaos
     - fireants
     - fireball 2
@@ -4349,6 +4551,7 @@ nlu:
     - flare finance
     - flare token
     - flash
+    - flash inu
     - flash token
     - flash token 2
     - flashx ultra
@@ -4362,6 +4565,7 @@ nlu:
     - flipper token
     - flipstar
     - flits
+    - flix
     - flixxo
     - float protocol
     - float protocol float
@@ -4374,6 +4578,7 @@ nlu:
     - flokidoge
     - floki elon
     - flokifrunkpuppy
+    - flokigainz
     - floki gold
     - flokigravity
     - floki inu
@@ -4397,9 +4602,9 @@ nlu:
     - floki shiba
     - flokishu
     - flokiswap
-    - floki wife
     - flokizap
     - floof
+    - floordao
     - florida man
     - florin
     - floshin
@@ -4417,6 +4622,7 @@ nlu:
     - fluxchain
     - flux protocol
     - flux token
+    - flying colours
     - flypaper
     - flypme
     - fme
@@ -4439,7 +4645,8 @@ nlu:
     - fompound
     - fone
     - font
-    - foobee
+    - food bank
+    - foodchain global
     - food farmer finance
     - football coin
     - football fantasy pro
@@ -4463,15 +4670,20 @@ nlu:
     - formula
     - forrest pump
     - forthbox
+    - fortknox
     - fortknoxter
     - fortress
     - fortressdao
     - fortuna
     - fortuna sittard fan token
     - fortune
+    - fortune finance
+    - forus
     - forward
     - fossil
+    - foundation eth
     - foundrydao logistics
+    - fountain protocol
     - fox
     - foxboy
     - foxdcoin
@@ -4479,11 +4691,13 @@ nlu:
     - foxgirl
     - fox trading token
     - foxy equilibrium
+    - fqswap
     - fractal
     - fraction
     - fractionalized smb 2367
     - fractionalized wave 999
     - fragments of arker
+    - fraktal
     - fraktionalized thug 2856
     - frakt token
     - france rev finance
@@ -4497,6 +4711,8 @@ nlu:
     - fredenergy
     - freecash
     - freedom
+    - freedom 22 dao
+    - freedomcoin
     - freedom coin
     - freedom reserve
     - freela
@@ -4520,6 +4736,7 @@ nlu:
     - freyala
     - friends with benefits pro
     - friendz
+    - friesdao
     - frieza inu
     - fringe finance
     - frmx token
@@ -4539,6 +4756,8 @@ nlu:
     - frosty floki v2
     - froyo games
     - frozencake
+    - frozentomb
+    - frozentomb lot
     - fruit
     - fruit fighters
     - fruits
@@ -4556,6 +4775,7 @@ nlu:
     - fudcoin official
     - fuel token
     - fufu
+    - fuji
     - fullmetal inu
     - fuma finance
     - fumoney
@@ -4568,6 +4788,7 @@ nlu:
     - furucombo
     - furukuru
     - fuse doge
+    - fuse dollar
     - fusefi
     - fuse network token
     - fusible
@@ -4576,6 +4797,8 @@ nlu:
     - futurax
     - future
     - future1coin
+    - futurecoin
+    - futurefi
     - future real estate token
     - futurescash
     - futurescoin
@@ -4597,6 +4820,7 @@ nlu:
     - g999
     - gabecoin
     - gacube
+    - gadget war
     - gaia dao
     - gaia everworld
     - gaias tears
@@ -4619,7 +4843,9 @@ nlu:
     - galaxybusd
     - galaxycoin
     - galaxy coin
+    - galaxy doge
     - galaxy fight club
+    - galaxy force x
     - galaxygoggle
     - galaxy heroes coin
     - galaxy network
@@ -4648,7 +4874,6 @@ nlu:
     - game frag
     - gamenft
     - gameology
-    - gameologyv2
     - gameonetoken
     - gamer
     - gamercoin
@@ -4695,6 +4920,7 @@ nlu:
     - gatechain wormhole
     - gatenet
     - gates of ethernity
+    - gateway protocol
     - gather
     - gatorswap
     - gatsby inu
@@ -4722,11 +4948,14 @@ nlu:
     - gemguardian
     - gemini dollar
     - gemit app
+    - gemlink
     - gemma extending tech
+    - gemmine
     - gempay
     - gems 2
     - gemstones
     - gem token
+    - gemuni
     - genaro network
     - genart
     - gencoin capital
@@ -4792,11 +5021,13 @@ nlu:
     - gifto
     - gigachad
     - giga watt token
+    - gigco
     - gigecoin
     - giletjaunecoin
     - gilgamesh eth
     - gimmer
     - ginga finance
+    - ginoa
     - ginspirit
     - gin token
     - ginza eternity reward
@@ -4857,6 +5088,7 @@ nlu:
     - gmx
     - gn
     - gnar token
+    - gnft
     - gnome
     - gnometoken
     - gnosis
@@ -4871,6 +5103,7 @@ nlu:
     - goblin
     - gobyte
     - gochain
+    - gocryptome
     - god candle
     - god dao
     - gods and legends
@@ -4917,6 +5150,7 @@ nlu:
     - goldmoney
     - goldnugget
     - gold pegas
+    - goldpesa option
     - gold poker
     - gold secured currency
     - gold sonic
@@ -4943,6 +5177,7 @@ nlu:
     - gorilla diamond
     - gorilla inu
     - gotem
+    - gotham
     - gourmetgalaxy
     - governance ohm
     - governance ohm wormhole
@@ -4969,6 +5204,7 @@ nlu:
     - grap finance
     - graphene
     - graphlinq protocol
+    - grave
     - graviocoin
     - gravitoken
     - graviton zero
@@ -4979,6 +5215,7 @@ nlu:
     - great ape
     - great bounty dealer
     - greed
+    - greekmythology
     - greenair
     - green beli
     - green ben
@@ -4995,6 +5232,7 @@ nlu:
     - greenheart cbd
     - green life energy
     - green light
+    - green metaverse
     - green money
     - greenmoon
     - greenmoonzilla
@@ -5007,13 +5245,12 @@ nlu:
     - greenzonex
     - gremlins finance
     - greyhound
-    - grey token
     - gric
     - grid
     - gridcoin research
     - gridzone
     - griffin art
-    - grill farm
+    - grimace coin
     - grim evo
     - grimm
     - grimtoken
@@ -5027,7 +5264,6 @@ nlu:
     - growthcoin
     - growth defi
     - grow token 2
-    - grumpydoge punks
     - gscarab
     - gsenetwork
     - gsmcoin
@@ -5061,7 +5297,9 @@ nlu:
     - gyen
     - gym token
     - gyro
+    - gyroscope
     - h2finance
+    - h2o
     - h3ro3s
     - habitat
     - habits
@@ -5075,14 +5313,17 @@ nlu:
     - hado
     - hai governence token
     - haino
+    - haino 2
     - hakka finance
     - hakuna matata
     - hakunamatata new
     - hakuna metata
     - hakurai
     - hakuryu
+    - hakuswap
     - halcyon
     - halfpizza
+    - halo network
     - halo platform
     - halving coin
     - hamaru
@@ -5102,11 +5343,13 @@ nlu:
     - happy birthday coin
     - happycoin
     - happyfans
-    - happy land
+    - happyland
+    - happyland reward token
     - harambe
     - harambe protocol
     - hara token
     - hare
+    - hare plus
     - hare token
     - harmes shares
     - harmomized app
@@ -5157,18 +5400,25 @@ nlu:
     - hdac
     - hddcoin
     - hdpunk vault nftx
+    - headbangers club
     - head football
     - healing potion
     - healthchainus
+    - heal the world
+    - healthify
     - health potion
+    - hearn fi
     - heartbout
     - heartbout pay
     - heartk
     - heartnumber
+    - hearts
     - hebeblock
     - hecate capital
     - hecofi
     - heco origin token
+    - heco peg bnb
+    - heco peg xrp
     - hector dao
     - hedera hashgraph
     - hedge4 ai
@@ -5177,6 +5427,7 @@ nlu:
     - hedgetrade
     - hedget wormhole
     - hedpay
+    - hedron
     - hegic
     - helex token
     - helicopter finance
@@ -5196,12 +5447,14 @@ nlu:
     - help coins
     - helper search token
     - helpico
+    - helpseed
     - help the homeless coin
     - help token
     - hempcoin thc
     - hepa finance
     - heptafranc
     - herbalist token
+    - heres
     - herity network
     - hermes
     - hermez network token
@@ -5212,9 +5465,9 @@ nlu:
     - hero cat key
     - hero cat token
     - herocoin
-    - herodoge
     - heroeschained
     - heroes empires
+    - heroes of nft
     - hero essence
     - heroes td
     - heroestd cgc
@@ -5231,6 +5484,7 @@ nlu:
     - hesh fi
     - hex
     - hex money
+    - hey shiba
     - hfuel
     - hibiki finance
     - hiblocks
@@ -5267,9 +5521,11 @@ nlu:
     - hk coin
     - hland token
     - hlth token
+    - hnk orijent 1919 token
     - hobbs networking
     - hobonickels
     - hodlada
+    - hodlassets
     - hodlbusd
     - hodlcoin
     - hodler heroes nft
@@ -5284,6 +5540,7 @@ nlu:
     - hogl finance
     - hokage inu
     - hokkaidu inu
+    - hold2earn
     - holdenomics
     - holdermoon
     - holderswap
@@ -5291,7 +5548,6 @@ nlu:
     - holiday token
     - hollaex token
     - hollygold
-    - holographic doge
     - hololoot
     - holoride
     - holotoken
@@ -5325,11 +5581,11 @@ nlu:
     - hoodrat finance
     - hoopoe
     - hoo token
+    - hope galaxy
     - hope token
     - hoppy
     - hopr
     - hoqu
-    - hora
     - hord
     - horde
     - horizondollar
@@ -5337,14 +5593,17 @@ nlu:
     - horizon protocol
     - horny doge
     - horuspay
+    - hosky
     - hospital coin
     - hotbit token
     - hot cross
     - hotdoge
     - hot doge
     - hotdollars token
+    - hotelium
     - hotnow
     - hotzilla
+    - housedao
     - howdoo
     - howl city
     - howlx
@@ -5381,6 +5640,7 @@ nlu:
     - hunger doge
     - hunger token
     - hungrybear
+    - hungry bees
     - hunny love token
     - hunterdoge
     - hunt token
@@ -5413,6 +5673,7 @@ nlu:
     - hycon
     - hydra
     - hydra token
+    - hydraverse
     - hydro
     - hydrogen token
     - hydro h2o
@@ -5475,9 +5736,13 @@ nlu:
     - ichello
     - ichi farm
     - ichigo inu
+    - i coin
     - icolcoin
+    - icomex
+    - icommunity
     - icon
     - iconiq lab token
+    - icon usdc
     - icrypto world
     - icy money
     - idavoll network
@@ -5499,6 +5764,7 @@ nlu:
     - idle mystic
     - idle mystic token
     - idle susd yield
+    - idle token
     - idle tusd yield
     - idle usdc risk adjusted
     - idle usdc yield
@@ -5569,6 +5835,7 @@ nlu:
     - index coop inverse matic flexible leverage index
     - index coop matic 2x flexible leverage index
     - indexed finance
+    - indigg
     - indodex
     - indorse
     - infam
@@ -5610,6 +5877,7 @@ nlu:
     - infomatix
     - info token
     - inft platform
+    - inheritance art
     - injective protocol
     - injeolmi
     - ink
@@ -5639,6 +5907,7 @@ nlu:
     - insula
     - insurace
     - insure
+    - insuredao
     - insured finance
     - insurepal
     - insureum
@@ -5672,6 +5941,8 @@ nlu:
     - inu token
     - inu wars
     - inuyasha
+    - inventoryclub
+    - inverse btc flexible leverage index
     - inverse ethereum volatility index token
     - inverse finance
     - investdex
@@ -5738,6 +6009,7 @@ nlu:
     - islander
     - island inu
     - islandswap
+    - isotopec
     - ispolink
     - istanbul basaksehir fan token
     - istardust
@@ -5760,9 +6032,11 @@ nlu:
     - ixcoin
     - ixicash
     - ixinium
+    - ixirswap
     - ixo
     - ix swap
     - ix token
+    - izanagi
     - ize
     - izumi finance
     - jackpool finance
@@ -5826,6 +6100,7 @@ nlu:
     - joys
     - joystick 2
     - jpaw inu
+    - jpeg d
     - jpegvaultdao
     - jpool
     - jpyc
@@ -5834,12 +6109,14 @@ nlu:
     - jubi token
     - juggernaut
     - juicebox
+    - juice coin
     - julien
     - julswap
     - jumbo
     - jumptoken
     - junca cash
     - jungle
+    - jungle defi
     - jungle token
     - junko inu
     - juno network
@@ -5847,15 +6124,17 @@ nlu:
     - jupiter
     - jur
     - jurasaur
+    - jurassic_nodes
+    - jurassic token
     - just
     - justbet
     - justfarm
-    - justmoney
     - just stablecoin
     - justyours
     - juventus fan token
     - k21
     - k 9 inu
+    - kaafila
     - kabosu
     - kaby arena
     - kaby gaming token
@@ -5874,10 +6153,12 @@ nlu:
     - kala
     - kala finance
     - kalamint
+    - kala network
     - kalao
     - kalata
     - kalera nft
     - kalissa
+    - kalkicoin
     - kalmar
     - kalori
     - kambria
@@ -5886,6 +6167,7 @@ nlu:
     - kan
     - kanaloa network
     - kandy
+    - kang3n
     - kanga exchange
     - kangal
     - kangaroo
@@ -5918,7 +6200,7 @@ nlu:
     - kawaii islands
     - kawaiinu
     - kawai shiba
-    - kawakami inu
+    - kawakami
     - kayserispor
     - kazama senshi
     - kbn
@@ -5988,14 +6270,15 @@ nlu:
     - kineko
     - kine protocol
     - king arthur
-    - king baby doge
     - king cardano
     - kingdoge
     - kingdoge token
+    - king dog inu
     - kingdom game 4 0
     - kingdom karnage
     - kingdomswap
     - kingdomx
+    - king finance
     - king floki
     - king forever
     - kingfund finance
@@ -6005,6 +6288,7 @@ nlu:
     - kingpad
     - king rooster
     - king samo
+    - king share
     - king shiba
     - kingspeed
     - king swap
@@ -6026,7 +6310,7 @@ nlu:
     - kitcoin
     - kite sync
     - kitsumon
-    - kitsune inu
+    - kitten coin
     - kittenfinance
     - kitty
     - kittycake
@@ -6052,23 +6336,26 @@ nlu:
     - klever finance
     - klima dao
     - klimatas
+    - kling
     - kmushicoin
     - knekted
     - knights of fantom
+    - knightswap
     - knight war spirits
     - knit finance
     - know your developer
     - knoxedge
     - knoxfs
     - knuckles
+    - koakombat
     - koala token
     - kobocoin
     - koda finance
     - kodi
-    - kodiak
     - koel coin
     - kogecoin
     - koinomo
+    - koinon
     - koinos
     - koji
     - koka inu
@@ -6084,6 +6371,7 @@ nlu:
     - kommunitas
     - komodo
     - kompass
+    - kondux
     - kong land alpha citizenship
     - konjungate
     - konomi network
@@ -6098,6 +6386,8 @@ nlu:
     - krause
     - kred
     - krida fans
+    - krigger
+    - krill
     - krios
     - kripto galaxy battle
     - kromatika
@@ -6134,6 +6424,7 @@ nlu:
     - kulupu
     - kuma inu
     - kunaiinu
+    - kunci coin
     - kunoichix
     - kurai inu
     - kurai metaverse
@@ -6149,11 +6440,13 @@ nlu:
     - kuverit
     - kwikswap protocol
     - kyanite
+    - kyberdyne
     - kyber network
     - kyber network crystal
     - kylin network
     - kyrrex
     - kzcash
+    - l2pad
     - label foundation
     - labracoin
     - labs group
@@ -6181,20 +6474,23 @@ nlu:
     - lasereyes
     - laser eyes
     - lassocoin
+    - last survivor
     - latamcash
     - latiumx
     - latoken
     - latteswap
     - lattice token
+    - launchblock
     - launchmynft
     - launchpool
     - launchwall
-    - launchx
     - launchzone
+    - laurus coin
     - lavacake finance
     - lavaswap
+    - lavax labs
     - law
-    - layer 1 quality index
+    - layer2dao
     - lazio fan token
     - lazydoge
     - lazy horse race club
@@ -6213,6 +6509,7 @@ nlu:
     - league of kingdoms
     - league of zodiacs
     - lean
+    - lean management token
     - leapableio
     - leasehold
     - leash
@@ -6225,11 +6522,12 @@ nlu:
     - legal block
     - legendaryum
     - legend of fantasy war
+    - legends of mitra
     - legends room
     - legia warsaw fan token
     - legion network
     - legolas exchange
-    - lekan
+    - leisurepay
     - lelouch lamperouge
     - lemochain
     - lemon
@@ -6244,14 +6542,15 @@ nlu:
     - leo
     - leonicorn swap
     - leonidas token
+    - leon token
     - leopard
     - leo token
     - lepasa
     - lepricon
+    - leslar metaverse
     - less network
     - lethean
     - letitride
-    - let s go brandon
     - lets go brandon coin
     - lets go farming
     - levante ud fan token
@@ -6270,6 +6569,7 @@ nlu:
     - libartysharetoken
     - libera
     - liber coin
+    - libero financial
     - libertas token
     - libfx
     - libonomy
@@ -6282,10 +6582,12 @@ nlu:
     - lido dao
     - lido dao wormhole
     - lido staked ether wormhole
+    - lido staked matic
     - lido staked sol
     - lien
     - life crypto
     - life dao
+    - lifetime
     - life token v2
     - lightbeam courier coin
     - lightcoin
@@ -6305,6 +6607,7 @@ nlu:
     - lilflokiceo
     - lilith swap
     - lillion
+    - lilly finance
     - limbo token
     - limestone network
     - limited euro
@@ -6325,7 +6628,6 @@ nlu:
     - linker coin
     - linketh 2x token
     - linkeye
-    - linkflow
     - linkka
     - link machine learning
     - link platform
@@ -6351,6 +6653,7 @@ nlu:
     - liquidus
     - liquity
     - liquity usd
+    - liqwid finance
     - lisk
     - lit
     - litebar
@@ -6393,6 +6696,7 @@ nlu:
     - livetrade token
     - lixir protocol
     - lizard token
+    - lizardtoken finance
     - llamaswap
     - lltoken
     - lnko token
@@ -6401,6 +6705,7 @@ nlu:
     - lobis
     - lobstex coin
     - localcoinswap
+    - local terra
     - localtrade
     - locgame
     - lockchain
@@ -6408,6 +6713,7 @@ nlu:
     - lockness
     - locus chain
     - lofi defi
+    - logitron
     - logix coin
     - logs
     - loki network
@@ -6436,6 +6742,7 @@ nlu:
     - lord arena
     - lorde edge
     - lords
+    - lordtoken
     - loserchick egg
     - loser coin
     - lossless
@@ -6444,16 +6751,16 @@ nlu:
     - lotoblock
     - lotto
     - lot trade
+    - lotus capital
     - loud market
     - louverture
     - louvre finance
     - lovechain
-    - love coin
     - love earth coin
     - lovelace world
     - lovely inu finance
     - lovepot token
-    - low float gem
+    - love protocol
     - lox network
     - lp 3pool curve
     - l pesa
@@ -6462,11 +6769,13 @@ nlu:
     - lp scurve
     - lto network
     - ltradex
+    - luart
     - lua token
     - luatoken wormhole
     - luca
     - lucent
     - lucha
+    - lucidao
     - lucid lands
     - luckchain
     - luckstar
@@ -6478,9 +6787,11 @@ nlu:
     - luckypig
     - lucky property development invest
     - luckyseventoken
+    - lucky shinu
     - luckytoken
     - lucky token
     - lucky unicorn token
+    - lucretius
     - lucrosus capital
     - lucy
     - lucy inu
@@ -6506,6 +6817,7 @@ nlu:
     - lunarium
     - lunarswap
     - luna rush
+    - lunaverse
     - luna wormhole
     - lunch money
     - lunes
@@ -6540,7 +6852,6 @@ nlu:
     - lys capital
     - lzp
     - m2
-    - m7 vault
     - macaronswap
     - mach
     - machinecoin
@@ -6565,13 +6876,16 @@ nlu:
     - magic cake
     - magiccraft
     - magic cube
+    - magic cube finance
     - magicdoge
+    - magic ethereum money
     - magic forest
     - magic internet money
     - magic internet money wormhole
     - magic inu
     - magick dao
     - magic metaverse
+    - magic of universe
     - magic power
     - magic token
     - magic trading token
@@ -6626,6 +6940,7 @@ nlu:
     - mapcoin
     - maple
     - maps
+    - marble
     - marblecoin
     - marcopolo
     - margin call
@@ -6641,6 +6956,7 @@ nlu:
     - marketmove
     - marketpeak
     - markhor meta
+    - markmeta
     - marlin
     - marmaj
     - mar network
@@ -6649,14 +6965,17 @@ nlu:
     - mars4
     - marscoin
     - marscolony
+    - marsdao
     - mars doge
     - mars dogecoin
     - mars ecosystem token
     - mars floki inu
     - marshal lion group coin
+    - marshall rogan inu
     - marshmellowdefi
     - mars inu
     - mars panda world
+    - mars protocol
     - marsrise
     - mars space x
     - mars token
@@ -6716,6 +7035,7 @@ nlu:
     - matrix solana index
     - matrixswap
     - matryx
+    - mavaverse token
     - maxcoin
     - maxgoat
     - maximizer
@@ -6748,6 +7068,7 @@ nlu:
     - mdu
     - meals
     - meanfi
+    - mean tamato
     - measurable data token
     - meblox protocol
     - mechashiba
@@ -6755,6 +7076,7 @@ nlu:
     - mech master
     - meconcash
     - medacoin
+    - medcarecoin
     - media eye
     - media licensing token
     - media network
@@ -6766,16 +7088,17 @@ nlu:
     - medican coin
     - medic coin
     - mediconnect
+    - medikhanax
     - medishares
     - medi token
     - medium
     - medooza ecosystem
     - medping
     - medusa
-    - meebits
     - meebitsdao pool
     - meeb master
     - meeb vault nftx
+    - meerkat shares
     - meetone
     - meetple
     - megabonk
@@ -6783,12 +7106,15 @@ nlu:
     - megacosm
     - megacryptopolis
     - mega lottery services global
+    - megamoon
     - megashibazilla
     - megatech
     - megatoken
     - megaweapon
     - megla doge
+    - meishu
     - meka
+    - mekkafroggo
     - mekka froggo
     - melalie
     - meland ai
@@ -6811,15 +7137,16 @@ nlu:
     - memecoinuniverse
     - meme doge coin
     - memeflate
-    - meme games
     - meme inu
     - memekiller
     - meme kong
     - meme lordz
     - meme ltd
+    - meme machine
     - memenft
     - memenopoly money
     - memepad
+    - memes token
     - memetic
     - memewars
     - memex
@@ -6853,6 +7180,7 @@ nlu:
     - meshbox
     - meso
     - meta
+    - metaair
     - metaaltpad
     - meta apes
     - metaaudio
@@ -6861,6 +7189,8 @@ nlu:
     - metabet
     - metabike
     - meta billionaires club
+    - metablackout
+    - metabolic
     - metabrands
     - meta brawl
     - meta bsc
@@ -6872,22 +7202,27 @@ nlu:
     - metacash
     - metacat
     - meta cat
+    - metacelo
     - meta cloth
+    - meta club
     - metacoin
     - metacraft
     - metacz
     - meta decentraland
     - metadium
-    - metadoge
+    - metadoctor
     - meta doge
     - metadogeswap
+    - metadoge v2
     - metadog racing
     - metadrace
+    - meta dragon city
     - metadress
     - metadubai
     - metafabric
     - metaface
     - metafarm dao
+    - meta farmer finance
     - metafashioners
     - metaficial world
     - metafighter
@@ -6908,6 +7243,7 @@ nlu:
     - metagamehub dao
     - metagaming
     - metagaming guild
+    - metagamz
     - metagear
     - metagochi
     - metagods
@@ -6916,6 +7252,7 @@ nlu:
     - meta hangry games
     - metahash
     - metahero
+    - meta house
     - meta inu
     - meta inu token
     - meta islands
@@ -6927,12 +7264,15 @@ nlu:
     - metaland dao
     - metaland gameverse
     - meta land yield
+    - metalandz
     - metal backed money
     - meta legends
     - metal music coin
     - metaloop tech
     - metal packaging token
     - metalswap
+    - metaluna
+    - metamall
     - metamaps
     - metamars
     - metamatrix
@@ -6944,6 +7284,8 @@ nlu:
     - meta musk
     - meta mvrs
     - metanations
+    - metan evolutions
+    - metanft
     - metanftgaming
     - metaniagames
     - metanyx
@@ -6951,19 +7293,26 @@ nlu:
     - metapay
     - metapets
     - meta pets
+    - metapixel
     - metaplace
     - metaplanet
     - metaplay
     - metaplayers gg
     - metapool
     - metaportal
+    - metaportal gaming index
     - metapplay
     - metaraca
     - metaracers
     - metarcade
     - metarealm
     - metareserve
+    - metarim
+    - metarobox
+    - metaroid nft
+    - metaroyale
     - meta ruffy
+    - metarun
     - metasafemoon
     - metaseer
     - metashells
@@ -6972,6 +7321,7 @@ nlu:
     - meta shiba bsc
     - metashib token
     - meta shield
+    - metasnooker
     - metasoccer
     - metasoldier
     - metaspace
@@ -6980,13 +7330,18 @@ nlu:
     - metastar
     - metastrike
     - metasurvivor
+    - metaswap
     - metatown
     - metatrone
     - metauniverse
+    - meta uranus
+    - metavault
     - metavegas
     - metaverseair
+    - metaverse all best ico
     - metaverse capital
     - metaverse dao
+    - metaverse dog
     - metaverse doge
     - metaverse dualchain network architecture
     - metaverse etp
@@ -6994,6 +7349,7 @@ nlu:
     - metaverse face
     - metaverse index
     - metaverse index token
+    - metaversemgl
     - metaverse miner
     - metaverse nft index
     - metaversepro
@@ -7002,12 +7358,14 @@ nlu:
     - metaversus
     - metavisa
     - metavpad
+    - metawar
     - metawars
     - metawhale btc
     - metawhale gold
     - metaworld
     - meta world
     - meta world game
+    - metaxhunter
     - metaxiz
     - metaxy
     - metazilla
@@ -7023,6 +7381,7 @@ nlu:
     - metisrise
     - metis token
     - metoshi
+    - metra
     - metric exchange
     - metronome
     - metroverse
@@ -7044,6 +7403,7 @@ nlu:
     - microbitcoin
     - micro bitcoin finance
     - microcoin
+    - microcredittoken
     - microdexwallet
     - micro gaming protocol
     - micromines
@@ -7065,21 +7425,22 @@ nlu:
     - milf finance
     - military finance
     - militia games
+    - milk
     - milk2
-    - milk 2
     - milk alliance
     - milk and butter
     - milkshakeswap
-    - milk token
     - milky token
     - milkywayex
     - millenniumclub
+    - millennium sapphire
     - millimeter
     - million
     - millionaire maker
     - million monke
     - millionsy
     - millonarios fc fan token
+    - milo inu
     - mim
     - mimas
     - mimatic
@@ -7101,6 +7462,7 @@ nlu:
     - minecrypto
     - mine network
     - mineral
+    - minerblox
     - minereum
     - minergate token
     - minerjoe
@@ -7127,16 +7489,18 @@ nlu:
     - minimals
     - mini metis
     - mini mongoose
+    - minipanther
     - mini saitama
     - mini shib
     - minishib eth
     - minishib token
     - minisoccer
-    - minisports token
     - minisportzilla
     - minithunder
     - mini tiger
     - miniusdc
+    - miniverse dollar
+    - miniverse share
     - minix
     - miniyak
     - minmax
@@ -7213,6 +7577,7 @@ nlu:
     - mktcash
     - mktcoin
     - mmacoin
+    - mma gaming
     - mmaon
     - mmfinance
     - mmmluckup7
@@ -7230,7 +7595,9 @@ nlu:
     - mobilego
     - mobilian coin
     - mobilink coin
+    - mobility coin
     - mob inu
+    - mobist
     - mobit global
     - mobius
     - mobius finance
@@ -7245,7 +7612,6 @@ nlu:
     - moda dao
     - modefi
     - model x coin
-    - modern investment coin
     - modex
     - modihost
     - moebius
@@ -7291,12 +7657,14 @@ nlu:
     - moneytree
     - monfter
     - mongo coin
+    - mongol nft
     - mongoose
     - mongoosecoin
     - moniwar
     - monk
     - monkeyball
     - monkey claus game
+    - monnfts
     - monnos
     - mononoke inu
     - monopoly millionaire game
@@ -7340,6 +7708,7 @@ nlu:
     - moonfarmer
     - moonfarm finance
     - moonflower farm
+    - moonforce
     - moongame
     - mooni
     - moonienft
@@ -7358,6 +7727,7 @@ nlu:
     - moonpump
     - moon rabbit
     - moonradar finance
+    - moonraise
     - moonretriever
     - moonrise
     - moonriver
@@ -7382,6 +7752,7 @@ nlu:
     - moontrustbsc
     - moon warriors
     - moonway
+    - moonwell
     - moonwilly
     - moonwolf io
     - morality
@@ -7417,6 +7788,7 @@ nlu:
     - movie magic
     - mozik
     - mozox
+    - mozza
     - mp3
     - mp4
     - mr burns token
@@ -7434,6 +7806,7 @@ nlu:
     - mu continent
     - mu dank
     - mud guild game
+    - muesliswap milk
     - mulierum
     - multichain
     - multi chain capital
@@ -7447,10 +7820,13 @@ nlu:
     - multiplier bsc
     - multi stake capital
     - multistarter
+    - multi strategies capital
     - multivac
     - multiverse
     - multiverse capital
+    - muna
     - munch token
+    - mundo token
     - murphycat
     - mus
     - musd
@@ -7458,10 +7834,12 @@ nlu:
     - museo
     - museum of crypto art
     - mushroom
+    - mushroom coin
     - mushu finance
     - musk
     - musk doge
     - musk gold
+    - musk ito
     - musk metaverse
     - muskswap
     - muso finance 2
@@ -7490,6 +7868,7 @@ nlu:
     - my lotto coin
     - my master war
     - mymessage
+    - mymine
     - mymn
     - my neighbor alice
     - my neighbor alice wormhole
@@ -7506,6 +7885,8 @@ nlu:
     - mytheria
     - myth token
     - mytoken
+    - mytona verse
+    - mytrade
     - mytvchain
     - mywish
     - myx network
@@ -7513,6 +7894,7 @@ nlu:
     - nabox
     - nacho finance
     - nadeshiko
+    - naffiti
     - nafter
     - nafty
     - naga
@@ -7527,6 +7909,7 @@ nlu:
     - nanjcoin
     - nano
     - nano bitcoin token
+    - nanobyte
     - nano doge
     - nano dogecoin
     - nanometer bitcoin
@@ -7565,6 +7948,7 @@ nlu:
     - neeva defi
     - neftipedia
     - neighbourhoods
+    - nekocoin
     - neko network
     - nekonium
     - nelo metaverse
@@ -7575,6 +7959,7 @@ nlu:
     - neo
     - neo holistic coin
     - neon exchange
+    - neopin
     - neos credits
     - neoworld cash
     - neptune
@@ -7586,6 +7971,7 @@ nlu:
     - nervenetwork
     - nervos network
     - nest
+    - nest arcade
     - nest egg
     - nestegg coin
     - nesten
@@ -7610,7 +7996,6 @@ nlu:
     - neverdrop
     - newb farm
     - new bitshares
-    - new chance
     - newdex token
     - new earth order money
     - new era
@@ -7641,6 +8026,8 @@ nlu:
     - nextype finance
     - nexum
     - nexus
+    - nexus beth token share representation
+    - nexus bluna token share representation
     - nexus dubai
     - nexus governance token
     - nexus mutual wormhole
@@ -7649,6 +8036,7 @@ nlu:
     - nfans
     - nfmonsters
     - nfraction
+    - nft11
     - nfta
     - nft alley
     - nft art finance
@@ -7664,6 +8052,7 @@ nlu:
     - nfteyez
     - nftfundart
     - nftfy
+    - nftgamingstars
     - nft global platform
     - nftify
     - nftime
@@ -7709,10 +8098,10 @@ nlu:
     - nickel token
     - nico robin inu
     - nidhi dao
+    - nido invest dao
     - niftify
     - niftsy
     - nifty league
-    - niftynft
     - niftypays
     - nifty token
     - night life crypto
@@ -7731,6 +8120,7 @@ nlu:
     - ninky
     - ninneko
     - nintia estate
+    - niob
     - niobio cash
     - niobium coin
     - niros
@@ -7762,12 +8152,14 @@ nlu:
     - nodetrade
     - noel capital
     - no face inu
+    - noften
     - nogoaltoken
     - noia network
     - nokencoin
     - noku
     - nole npc
     - nolewater
+    - nolian credits
     - nolimitcoin
     - nominex
     - nomy
@@ -7776,7 +8168,7 @@ nlu:
     - no one
     - nora token
     - nord finance
-    - north north pole
+    - north
     - nosana
     - noshit
     - nosta
@@ -7834,8 +8226,10 @@ nlu:
     - nyan cat
     - nyantereum
     - nyan v2
+    - nycccoin
     - nydronia
     - nyerium
+    - nynja
     - nyx token
     - nyzo
     - nzd stablecoin
@@ -7843,6 +8237,7 @@ nlu:
     - oasis 2
     - oasis city
     - oasis network
+    - oath
     - obic
     - obortech
     - obrok
@@ -7852,6 +8247,7 @@ nlu:
     - occamfi
     - oceanex token
     - ocean protocol
+    - oceidon blox
     - oc protocol
     - ocra
     - octafarm
@@ -7895,7 +8291,6 @@ nlu:
     - oec tron
     - oec uni
     - oec xrp
-    - oec zks
     - official crypto cowboy token
     - offline
     - offshift
@@ -7945,6 +8340,7 @@ nlu:
     - omni
     - omni cash
     - omni consumer protocol
+    - omnidex
     - omni people driven
     - omni real estate token
     - omnis
@@ -7961,6 +8357,7 @@ nlu:
     - one cash
     - onedao finance
     - one dex
+    - onefortune
     - onefuse
     - onegetcoin
     - one hundred coin 2
@@ -7992,6 +8389,7 @@ nlu:
     - onyx
     - oobit
     - o ocean mar22
+    - oogear
     - oogi
     - ooki
     - oolongswap
@@ -8003,6 +8401,7 @@ nlu:
     - openanx
     - opendao
     - opendao wormhole
+    - open data protocol
     - open governance token
     - openlive nft
     - opennity
@@ -8030,14 +8429,17 @@ nlu:
     - oracle system
     - oracle top 5
     - oracolxor
+    - oracula
     - oragonx
     - oraichain token
     - orakler
     - orakuru
     - orao network
+    - orbitau taureum
     - orbit chain
     - orbitcoin
     - orbit token
+    - orbler
     - orbs
     - orbyt token
     - orca
@@ -8062,6 +8464,7 @@ nlu:
     - origo
     - orion money
     - orion protocol
+    - orkan
     - orlycoin
     - ormeus cash
     - ormeuscoin
@@ -8092,6 +8495,7 @@ nlu:
     - ouro stablecoin
     - our pay
     - ouse
+    - outer ring
     - outrace
     - ovato
     - overline emblem
@@ -8157,6 +8561,7 @@ nlu:
     - pangea
     - pangolin
     - pangolinswap
+    - panicswap
     - pantheon x
     - panther
     - pantherswap
@@ -8174,22 +8579,25 @@ nlu:
     - parachute
     - paradisefi
     - paradisehotel nft
-    - paradox
     - paradox nft
+    - paragen
     - paragon capital
     - paragonsdao
-    - parainu
     - paralink network
     - parallelchain
     - parallelcoin
     - paras
     - parasol finance
     - parasset
+    - parastate
     - paraswap
+    - paratoken
+    - parex
     - paribus
     - paris saint germain fan token
     - parkgene
     - parkingo
+    - parma
     - parrotdao
     - parrot egg
     - parrot egg polygon
@@ -8199,6 +8607,8 @@ nlu:
     - parsiq boost
     - parsl
     - par stablecoin
+    - partial
+    - partial share
     - particl
     - particle 2
     - particle technology
@@ -8234,8 +8644,10 @@ nlu:
     - paxos standard
     - payaccept
     - paybandcoin
+    - paybolt
     - paybswap
     - paycent
+    - paycer protocol
     - paycheck defi
     - pay coin
     - paycon token
@@ -8250,11 +8662,13 @@ nlu:
     - paytomat
     - payturn
     - payyoda
-    - payzus
     - pazzy
     - pbtc35a
     - pcatv3
     - pchain
+    - pdollar
+    - pdollar share
+    - peace doge
     - peace token
     - peach finance
     - peachfolio
@@ -8262,6 +8676,7 @@ nlu:
     - peacockcoin eth
     - pea farm
     - peak avalanche
+    - peakmines peak
     - peanut
     - peanuts
     - peaq
@@ -8297,7 +8712,6 @@ nlu:
     - pepemon pepeballs
     - pepemoon
     - pepeverse
-    - peppa network
     - pera finance
     - percent
     - perfect world
@@ -8310,7 +8724,6 @@ nlu:
     - perpetual wormhole
     - perpetuum coin
     - per project
-    - perra
     - persia
     - persistence
     - persistence staked xprt
@@ -8336,6 +8749,7 @@ nlu:
     - phantom protocol
     - pharma pay coin
     - phifi finance
+    - philcoin
     - philips pay coin
     - phillionex
     - philscurrency
@@ -8352,6 +8766,7 @@ nlu:
     - phoneum green
     - phonon dao
     - phore
+    - photochromic
     - photon
     - photonswap
     - phuket holiday coin
@@ -8386,6 +8801,7 @@ nlu:
     - piggy finance
     - piggy planet
     - piggy share
+    - pigs
     - pikachu
     - pikachu inu
     - pillar
@@ -8414,6 +8830,8 @@ nlu:
     - pirate inu
     - piratep
     - piratera
+    - piratesking
+    - pirate x pirate
     - pist trust
     - pitbull
     - pitch
@@ -8432,6 +8850,7 @@ nlu:
     - pixiu finance
     - pixl coin 2
     - pixls vault nftx
+    - pizza game
     - pizza nft
     - pizza pug coin
     - pizzaswap
@@ -8452,8 +8871,12 @@ nlu:
     - plant vs undead token
     - plasma finance
     - plastiks
+    - plata network
     - plateau finance
+    - platform for underpaid female athletes
     - platincoin
+    - platinum finance
+    - platinx
     - platoncoin
     - platon network
     - platypus finance
@@ -8475,13 +8898,13 @@ nlu:
     - playmarket
     - playnity
     - playpad
-    - play token
     - playtreks
     - plaza finance
     - plc ultima
     - plebe gaming
     - pledge
     - pledgecamp
+    - pledge finance
     - plentycoin
     - plenty dao
     - plethori
@@ -8510,6 +8933,7 @@ nlu:
     - poa network
     - poc blockchain
     - poc chain
+    - pochi inu
     - pocket arena
     - pocketcoin
     - pocket doge
@@ -8540,8 +8964,11 @@ nlu:
     - polarisdao
     - polaris share
     - polaris token
-    - polars governance token
+    - polars
+    - polar shares
     - polar sync
+    - polar token
+    - pole
     - police and thief game
     - policedoge
     - polinate
@@ -8590,6 +9017,7 @@ nlu:
     - polychain monsters
     - polychart
     - polycorn finance
+    - polycub
     - polydoge
     - polyfarm egg
     - polyfi
@@ -8647,6 +9075,7 @@ nlu:
     - pontoon
     - ponyo inu
     - ponzicoin
+    - pooch
     - poocoin
     - poodle
     - poofcash
@@ -8664,6 +9093,7 @@ nlu:
     - pop
     - pop chest token
     - popcorn
+    - popkon
     - populous
     - populous xbrl token
     - porkswap
@@ -8677,8 +9107,10 @@ nlu:
     - portugal national team fan token
     - portuma
     - pos coin
+    - poseidon finance
     - poseidon token
     - position token
+    - positron token
     - postcoin
     - potato
     - potcoin
@@ -8719,6 +9151,7 @@ nlu:
     - prime numbers
     - prime xi
     - prism
+    - prism governance token
     - prism network
     - prism protocol
     - privacyswap
@@ -8732,12 +9165,12 @@ nlu:
     - prizm
     - prntr
     - probably nothing
+    - probinex
     - probit exchange
     - prodax
     - professional fighters league fan token
     - profit bank
     - profit bls
-    - project dogex
     - projectfeenixv2
     - project inverse
     - projectmars
@@ -8783,8 +9216,11 @@ nlu:
     - proxy
     - proxynode
     - pryz
+    - pshare
     - pspace
+    - pstake finance
     - pstake staked atom
+    - psule
     - pswampy
     - psyche
     - psychic
@@ -8798,6 +9234,7 @@ nlu:
     - public index network
     - public mint
     - publish
+    - puddingswap
     - pudgy vault nftx
     - puff
     - puff santa
@@ -8833,6 +9270,7 @@ nlu:
     - puppy token
     - purefi
     - puregold token
+    - purfect network
     - puriever
     - purple butterfly trading
     - purple floki inu
@@ -8868,7 +9306,10 @@ nlu:
     - qian second generation dollar
     - qi dao
     - qiibee
+    - qiswap
+    - qitchain network
     - qlink
+    - qmall
     - qmcoin
     - qobit
     - qoiniq
@@ -8885,6 +9326,7 @@ nlu:
     - quam network
     - quannabu
     - quantfury
+    - quantic
     - quantis
     - quant network
     - quantstamp
@@ -8893,7 +9335,9 @@ nlu:
     - quantum tech
     - quark
     - quark chain
+    - quartz
     - quartz defi
+    - quartz defi ashare
     - quasacoin
     - quasarcoin
     - quattro tech
@@ -8913,11 +9357,13 @@ nlu:
     - quid token
     - quik
     - quinads
+    - quincoin
     - quipuswap governance token
     - quiverx
     - quix defi index
     - quizdrop
     - quiztok
+    - quoth
     - quotient
     - quras token
     - qwertycoin
@@ -8925,12 +9371,14 @@ nlu:
     - r34p
     - rabbit finance
     - rabet
+    - rac
     - racefi
     - racex
     - racing club fan token
     - rad
     - radar
     - radditarium network
+    - radi
     - radicle
     - radio caca
     - radio hero
@@ -8946,7 +9394,6 @@ nlu:
     - raider aurum
     - raid token
     - rai finance
-    - raijin
     - railgun
     - railnode
     - rainbowtoken
@@ -8954,6 +9401,7 @@ nlu:
     - rainicorn
     - rainmaker games
     - rain network
+    - raised in oblivion x
     - rai token
     - raja inu
     - rake finance
@@ -8965,9 +9413,11 @@ nlu:
     - ramifi
     - rammus
     - ramp
+    - rams
     - random
     - rangers fan token
     - rangers protocol gas
+    - rankerdao
     - rank token
     - ran online crypto world
     - ran x crypto
@@ -8979,6 +9429,7 @@ nlu:
     - rarible
     - rari governance token
     - rari governance token wormhole
+    - rari token
     - rarx
     - rasko
     - rasta finance
@@ -9004,6 +9455,7 @@ nlu:
     - rccc
     - rchain
     - rdctoken
+    - realbox
     - realfevr
     - realfinance network
     - realio network
@@ -9014,12 +9466,12 @@ nlu:
     - real realm
     - realtoken s 13895 saratoga st detroit mi
     - realtract
-    - real trump token
     - realy metaverse
     - reapchain
     - reaper token
     - reapit
     - rebasing liquidity
+    - rebel bots
     - rebellion protocol
     - rebeltradertoken
     - rebit
@@ -9041,12 +9493,14 @@ nlu:
     - redi
     - red kishu
     - redlight node district
+    - redmars
     - redpanda earth
     - red pulse
     - redshiba
     - red shiba token
     - redzilla
     - reecoin
+    - reefer token
     - reef finance
     - reesykle
     - refereum
@@ -9096,6 +9550,7 @@ nlu:
     - reserve rights wormhole
     - resfinex token
     - resource protocol
+    - restore truth token
     - reth
     - retire token
     - retrocade
@@ -9135,7 +9590,6 @@ nlu:
     - rewards token
     - rewardsx
     - rex
-    - rezerve
     - rfust
     - rhegic2
     - rhinos finance
@@ -9145,6 +9599,7 @@ nlu:
     - rhousdt
     - rhythm
     - ribbon finance
+    - rice
     - ricefarm
     - riceswap
     - rice wallet
@@ -9152,7 +9607,6 @@ nlu:
     - richcity
     - rich dao
     - rich doge coin
-    - richduck
     - richie
     - richierich coin
     - rich maker
@@ -9161,6 +9615,8 @@ nlu:
     - richway finance
     - rick and morty
     - rickmortydoxx
+    - ricnatum
+    - ride_finance
     - ride my car
     - ridge
     - ridotto
@@ -9193,6 +9649,7 @@ nlu:
     - risingsun
     - riskmoon
     - risq protocol
+    - ritestream
     - rito
     - ri token
     - riverboat
@@ -9204,6 +9661,7 @@ nlu:
     - rivrshiba
     - rizen coin
     - rizen coin 2
+    - rizespor token
     - rizon
     - rmrk
     - rna cash
@@ -9222,6 +9680,7 @@ nlu:
     - robocalls
     - robodoge coin
     - robofi token
+    - robohero
     - robo inu finance
     - robonomics network
     - robonomics web services
@@ -9231,6 +9690,7 @@ nlu:
     - robotina
     - robo token
     - robot shib
+    - robot warriors
     - robot wars
     - robust token
     - rocket
@@ -9247,6 +9707,7 @@ nlu:
     - rocket raccoon
     - rocket share
     - rocket shib
+    - rockettoken
     - rocket vault rocketx
     - rocket venture
     - rocket zilla
@@ -9303,6 +9764,7 @@ nlu:
     - royal gold
     - royal protocol
     - rps league
+    - rss3
     - rubic
     - rubix
     - rublix
@@ -9346,6 +9808,7 @@ nlu:
     - saber
     - saber wormhole
     - saber wrapped usd coin
+    - sacks
     - sacred tails
     - sada
     - sadbaby
@@ -9389,7 +9852,6 @@ nlu:
     - safemars
     - safemars protocol
     - safememe
-    - safemoney
     - safemoneybsc
     - safemoon
     - safemoon 2
@@ -9442,6 +9904,7 @@ nlu:
     - saitamax
     - saitanobi
     - saito
+    - saitoki inu
     - saiyan inu
     - saja
     - sak3
@@ -9466,6 +9929,7 @@ nlu:
     - sandego
     - san diego coin
     - sandman
+    - sandwich network
     - sanshu inu
     - sans token
     - santa capital
@@ -9474,6 +9938,7 @@ nlu:
     - santa dash
     - santadoge
     - santa floki
+    - santa floki v2
     - santa inu
     - santa shiba
     - santas war nft epic
@@ -9500,6 +9965,7 @@ nlu:
     - satoru inu
     - satoshi monsters
     - satoshistreetbets
+    - satoshiswap
     - satozhi
     - satt
     - saturna
@@ -9508,6 +9974,7 @@ nlu:
     - saunafinance token
     - sav3
     - savage
+    - savanna
     - saveanimal
     - save baby doge
     - savebee farm honeycomb
@@ -9523,6 +9990,7 @@ nlu:
     - sbf coin
     - sbland vault nftx
     - sbtc
+    - scalara nft index
     - scaleswap token
     - scallop
     - scan defi
@@ -9532,6 +10000,7 @@ nlu:
     - scarcity
     - scardust
     - scarecrow
+    - scarface finance
     - scary chain capital
     - scary games
     - scash
@@ -9550,6 +10019,7 @@ nlu:
     - scolcoin
     - sconex
     - scoobi doge
+    - scootercoin
     - scope
     - scopecoin
     - scopuly token
@@ -9568,10 +10038,10 @@ nlu:
     - scrypta
     - sdefi
     - sdot
+    - sdraco
     - sea
     - seachain
     - seadex
-    - seadog finance
     - seadog metaverse
     - seamlessswap token
     - seancecircle
@@ -9588,12 +10058,15 @@ nlu:
     - secured moonrat token
     - secured ship
     - securus
+    - seda
     - sedo pow token
     - seed2need
+    - seeded network
     - seeder finance
     - seeder network token
     - seedify fund
     - seedling
+    - seedon
     - seeds
     - seedswap
     - seedswap token
@@ -9603,7 +10076,9 @@ nlu:
     - seen
     - seer
     - seigniorage shares
+    - seismic
     - sekuritance
+    - sekuya
     - selenium
     - selfbar
     - selfkey
@@ -9626,7 +10101,6 @@ nlu:
     - sentre
     - sequence
     - ser
-    - serbian cave hermit
     - serenity
     - serenity financial
     - serey coin
@@ -9638,6 +10112,7 @@ nlu:
     - serum wormhole from ethereum
     - sessia
     - seth
+    - seth2
     - sether
     - seur
     - severe rise games
@@ -9647,8 +10122,10 @@ nlu:
     - s finance
     - sfmoney
     - sg20
+    - sgt shib
     - shabu shabu
     - shade cash
+    - shade protocol
     - shadows
     - shadowswap
     - shadow token
@@ -9658,6 +10135,7 @@ nlu:
     - shapepay
     - shapeshift fox token
     - shard
+    - shard 2
     - sharder protocol
     - shardingdao
     - shardus
@@ -9670,6 +10148,7 @@ nlu:
     - shd cash
     - shebolleth commerce
     - shed coin
+    - sheeba inu
     - sheep game
     - sheeptoken
     - sheesh
@@ -9677,10 +10156,13 @@ nlu:
     - sheesha finance erc20
     - sheesha finance polygon
     - sheeshmoon
+    - sheikh coin
     - shelby token
     - shelling
     - shell token
     - sheng
+    - shengweihu
+    - shera
     - sherlock365
     - sherlock wallet
     - sherpa
@@ -9689,7 +10171,6 @@ nlu:
     - shibabnb org
     - shiba bsc
     - shibacash
-    - shiba chocolate
     - shibachu
     - shiback
     - shibacock
@@ -9710,6 +10191,7 @@ nlu:
     - shiba inu billionaire
     - shiba inu classic
     - shiba inu empire
+    - shiba inu mother
     - shiba inu wormhole
     - shibaken finance
     - shibalana
@@ -9724,6 +10206,7 @@ nlu:
     - shibana
     - shibanaut
     - shibanaut token
+    - shibanft
     - shibanomi
     - shibanomics
     - shibanova
@@ -9734,7 +10217,6 @@ nlu:
     - shibarocket
     - shiba shogun
     - shiba toby
-    - shiba tron
     - shibavax
     - shibaverse
     - shibaverse token
@@ -9748,6 +10230,7 @@ nlu:
     - shibelon
     - shibelon mars
     - shibfuel
+    - shibgeki
     - shib generating
     - shibgf
     - shibmerican
@@ -9771,23 +10254,26 @@ nlu:
     - shield finance
     - shield network
     - shield protocol
+    - shield protocol token
+    - shiftal coin
     - shih tzu
     - shikage
     - shikoku inu
     - shill
     - shilling
     - shillit app
-    - shillmoon
     - shill token
     - shilly bar
     - shimmer network
     - shinchan token
     - shinechain
     - shinedao
+    - shinemine
     - shinfloki
     - shining crystal shard
     - shinji inu
     - shinjirai
+    - shinji the zombie slayer
     - shinjurai
     - shinjutsu
     - shinobi
@@ -9819,9 +10305,9 @@ nlu:
     - showcase token
     - showhand
     - shping
-    - shrek
     - shroom finance
     - shrooms
+    - shumo
     - shuna inuverse
     - shyft network 2
     - si14bet
@@ -9845,6 +10331,7 @@ nlu:
     - signal token
     - signata
     - signaturechain
+    - signed
     - signum
     - silent notary
     - sil finance
@@ -9875,6 +10362,7 @@ nlu:
     - simply
     - simp token
     - simracer coin
+    - sincere doge
     - sin city
     - sinerium
     - singer community coin
@@ -9887,6 +10375,7 @@ nlu:
     - singularity
     - singularitydao
     - singularitynet
+    - sins finance
     - sint truidense voetbalvereniging fan token
     - sipher
     - siren
@@ -9907,6 +10396,7 @@ nlu:
     - skrumble network
     - skull
     - skycoin
+    - skylands
     - skylight
     - skyrim finance
     - skyrocketing
@@ -9922,7 +10412,6 @@ nlu:
     - sleepy sloth
     - slimcoin
     - slink
-    - slink labs
     - slittle rabbit
     - slnv2
     - slothcoin
@@ -9936,6 +10425,7 @@ nlu:
     - smartcoin 2
     - smart coin smrtr
     - smartcredit token
+    - smart donation coin
     - smartlands
     - smartlink
     - smartlox
@@ -9961,6 +10451,7 @@ nlu:
     - smaugs nft
     - smd coin
     - smegmars
+    - smg
     - smilecoin
     - smile coin
     - smile token
@@ -9977,13 +10468,13 @@ nlu:
     - snake token
     - snapex
     - snapparazzi
-    - snap token
     - snetwork
     - snglsdao governance token
     - snook
     - snoopdao
     - snoopdoge
     - snoopflokidog
+    - snoshares
     - snovio
     - snowballtoken
     - snowball token
@@ -9991,16 +10482,19 @@ nlu:
     - snowbank
     - snowbear
     - snowblossom
+    - snow burn
     - snowcrash token
     - snowdog
     - snowgem
     - snowswap
     - snowtomb
     - snowtomb lot
+    - snowy owl
     - snx debt mirror
     - soakmont
     - soar 2
     - soba token
+    - socaverse
     - soccerhub
     - soccer infinity
     - socean staked sol
@@ -10012,6 +10506,7 @@ nlu:
     - social send
     - socialx 2
     - society of galactic exploration
+    - socilink
     - soda coin
     - soft bitcoin
     - softchain
@@ -10023,6 +10518,7 @@ nlu:
     - solace coin
     - solalambo
     - solana
+    - solana ecosystem index
     - solana inu
     - solana nut
     - solana paws
@@ -10045,6 +10541,7 @@ nlu:
     - solarminex
     - solarmoon
     - sola token
+    - solaunch
     - sol baby doge
     - solbank token
     - solberg
@@ -10052,6 +10549,7 @@ nlu:
     - solbit
     - solcash
     - solcats
+    - solchicks shards
     - solchicks token
     - solclout
     - solcondoms
@@ -10068,12 +10566,18 @@ nlu:
     - solfarm
     - solfina
     - solfire finance
+    - sol flowers
     - sol fox
+    - solhero
     - solice
     - solideth
+    - solidex
     - soliditylabs
+    - solidly
     - solid protocol
     - solidray finance
+    - solidsex tokenized vesolid
+    - solidus aitech
     - solit
     - solium rise
     - solminter
@@ -10090,6 +10594,7 @@ nlu:
     - solster
     - soltato fries
     - solum
+    - solunavax index
     - solve care
     - solvent
     - solview
@@ -10099,6 +10604,7 @@ nlu:
     - somax
     - sombe
     - sombra network
+    - somdej
     - somee advertising token
     - somee social
     - somee social old
@@ -10139,8 +10645,8 @@ nlu:
     - sovereign coin
     - sovi token
     - sovranocoin
-    - sovreign governance token
     - sovryn
+    - soxycoin
     - space
     - spaceballs
     - spacechain erc 20
@@ -10148,6 +10654,7 @@ nlu:
     - spacecorgi
     - spacecowboy
     - space crypto
+    - spacedawgs
     - space dog
     - space dollars
     - spacefalcon
@@ -10177,6 +10684,7 @@ nlu:
     - spankchain
     - spantale
     - sparda wallet
+    - spark finance
     - sparklab
     - sparkle
     - sparkle coin
@@ -10235,6 +10743,7 @@ nlu:
     - spirit orb pets care token
     - spiritswap
     - splash
+    - splat
     - splinterlands
     - splyt
     - spongebob square
@@ -10250,7 +10759,9 @@ nlu:
     - sporkdao
     - sport and leisure
     - sportemon go x
+    - sport investing
     - sportium
+    - sportoken
     - sportsicon
     - spots
     - sprink
@@ -10314,6 +10825,8 @@ nlu:
     - staked exodia
     - staked icx
     - staked klima
+    - staked_kuji
+    - staked luna
     - staked olympus
     - staked olympus v1
     - stakedthorus
@@ -10339,23 +10852,21 @@ nlu:
     - starbaseuniverse
     - starblock
     - starbots
-    - starbound
     - starchain
     - starchaindoge
     - starchi
     - starcoin
-    - star crunch
     - star foxx
     - stargaze
     - stargazer protocol
     - stark chain
     - starlaunch
     - starlink
-    - starminer ore token
+    - starly
     - starmon token
     - starname
+    - starnodes
     - starplay
-    - starpunk
     - starsharks
     - starsharks sea
     - star shib
@@ -10365,7 +10876,6 @@ nlu:
     - starstream
     - starterra
     - startfi
-    - startup boost token
     - start vesting
     - star wars cat
     - starwire
@@ -10399,6 +10909,7 @@ nlu:
     - step hero
     - step hero soul
     - stib token
+    - stilton musk
     - stimmy
     - sting
     - stingdefi
@@ -10406,11 +10917,11 @@ nlu:
     - stobox token
     - ston
     - stoneage nft
+    - stoned shiba
     - stone token
     - stonk
     - stonk 2
     - stonkbase
-    - stonkinu
     - stonk league
     - stopelon
     - storage area network anywhere
@@ -10431,6 +10942,7 @@ nlu:
     - stratis
     - stratos
     - strayacoin
+    - strayinu
     - stream protocol
     - streamr
     - streamr xdata
@@ -10443,14 +10955,15 @@ nlu:
     - stripto
     - strite
     - strong
+    - strong bull
     - stronghands
-    - stronghands finance
     - stronghands masternode
     - stronghold token
     - strong inu
     - strongnode
     - structure finance
     - strudel finance
+    - student coin
     - studio shibli
     - studyum
     - subgame
@@ -10463,7 +10976,6 @@ nlu:
     - sucrecoin
     - sugarbounce
     - sugarchain
-    - sugarland
     - sugarland token
     - sukhavati network
     - suku
@@ -10471,6 +10983,7 @@ nlu:
     - sumcoin
     - summeris
     - summit defi
+    - summit defi 2
     - sumokoin
     - sumswap
     - sun
@@ -10521,9 +11034,11 @@ nlu:
     - supertron
     - supertx governance token
     - superwhale
+    - super whale dao
     - super zero
     - support doge
     - supra token
+    - supremacy
     - suprenft
     - suqa
     - sureremit
@@ -10561,6 +11076,7 @@ nlu:
     - swaptoken
     - swaptracker
     - swapx
+    - swapxi token
     - swapz app
     - swarm
     - swarm bzz
@@ -10570,6 +11086,7 @@ nlu:
     - swass finance
     - sway social
     - sw dao
+    - sweep capital
     - sweet btc
     - swerve dao
     - swerve protocol
@@ -10672,6 +11189,8 @@ nlu:
     - tanuki token
     - taodao
     - tap
+    - tap fantasy
+    - tapioca dao_token
     - tapme token
     - tapmydata
     - tarality
@@ -10682,7 +11201,6 @@ nlu:
     - tartarus
     - tastenft
     - tasty token
-    - tata coin
     - tavittcoin
     - taxa token
     - tbcc
@@ -10701,11 +11219,13 @@ nlu:
     - team vitality fan token
     - teaswap art
     - tea token
+    - techcoin
     - technology innovation project
     - techshare token
     - tecracoin
     - tectonic
     - teddy
+    - teddy dog
     - teddy doge
     - teddy dollar
     - te food
@@ -10724,17 +11244,19 @@ nlu:
     - tena
     - tendies
     - tendieswap
+    - teneo
     - tenet
     - tengu
     - tenset
     - tenshi
     - tenup
+    - ten wallet
     - tenx
     - tenxcoin
     - tepleton
     - terablock
+    - terareum
     - tera smart money
-    - terkehh
     - ternio
     - terra aut
     - terra cat
@@ -10773,6 +11295,7 @@ nlu:
     - tessla coin
     - tether
     - tether 3x short
+    - tether avalanche bridged usdt e
     - tetherblack
     - tether eurt
     - tether gold
@@ -10800,9 +11323,11 @@ nlu:
     - the abyss
     - the alliance of eragard
     - the amaze world
+    - the apis
     - the batdoge
     - thebigcoin
     - the bitcoin family
+    - theboringtoken
     - theca
     - the cancoin
     - thecash
@@ -10826,6 +11351,7 @@ nlu:
     - the forbidden forest
     - theforce trade
     - thefutbolcoin
+    - the garden
     - thegcccoin
     - the grand banks
     - the graph
@@ -10837,6 +11363,7 @@ nlu:
     - the killbox game
     - the king
     - the lab finance
+    - the last war
     - the legend of deification
     - the luxury
     - the mars shiba
@@ -10846,8 +11373,10 @@ nlu:
     - themis 2
     - the monopolist
     - the moon shiba
+    - the nature token
     - the neko
     - the node
+    - the one ring
     - the open network
     - theos
     - theoscoin
@@ -10857,8 +11386,8 @@ nlu:
     - the philosophers stone
     - the phoenix
     - the piece
+    - thepiggygarden
     - the plant dao
-    - the portal
     - the rare antiquities token
     - the real golden inu
     - the realm defenders
@@ -10880,12 +11409,15 @@ nlu:
     - the three kingdoms
     - the tokenized bitcoin
     - the transfer token
+    - the transplant coin
     - the troller coin
     - the winkyverse
     - the wolf pack
+    - the xenobots project
     - thingschain
     - thingsoperatingsystem
     - thinkium
+    - this
     - thisoption
     - thor
     - thorchain
@@ -10907,6 +11439,8 @@ nlu:
     - threshold network token
     - throne
     - thropic
+    - thropic v2
+    - thtf
     - thunderada app
     - thunderbnb
     - thundereth
@@ -10916,10 +11450,12 @@ nlu:
     - thunderverse
     - thx
     - thx network
+    - tia
     - tianya token
     - tianyu finance
     - tiara
     - ticket finance
+    - ticoex token
     - tictalk
     - tidal finance
     - tidex token
@@ -10944,6 +11480,7 @@ nlu:
     - timers
     - timexspace
     - tinville
+    - tiny coin
     - tiny colony
     - tip blue
     - tipinu
@@ -10953,16 +11490,17 @@ nlu:
     - titania token
     - titano
     - titanswap
+    - titi financial
     - title network
     - tits token
     - titsv2
     - ti value
-    - tixl new
     - tkbtoken
     - tkn token
     - tmc
     - tmeta
     - tnc coin
+    - tnns
     - toad network
     - togashi inu
     - tokamak network
@@ -10972,6 +11510,7 @@ nlu:
     - tokemon
     - toke n
     - tokenasset
+    - tokenbank
     - tokenbook
     - tokenbox
     - tokencard
@@ -10997,6 +11536,7 @@ nlu:
     - token play
     - token pocket
     - token shelby
+    - tokenstand network
     - token tkx
     - tokentuber
     - tokes
@@ -11030,9 +11570,11 @@ nlu:
     - topchain
     - top coin token
     - topdog
+    - topflower
     - topmanager
     - top network
     - topshelf finance
+    - tor
     - torchain
     - torekko
     - torex
@@ -11059,14 +11601,17 @@ nlu:
     - toucan protocol base carbon tonne
     - touchcon
     - touchfuture
+    - tourist shiba inu
     - tourist token
     - touriva
     - toursim coin
     - tower
     - tower defense titans
     - tower finance
+    - tower usd
     - town star
     - toxicgamenft
+    - toxic game nft
     - toydoge
     - toyshiba
     - tozex
@@ -11090,10 +11635,10 @@ nlu:
     - transcodium
     - transhuman coin
     - transient
-    - transparent token
     - trapeza protocol
     - tratok
     - trava finance
+    - travel care 2
     - travelnote
     - traverse
     - travgopv
@@ -11151,7 +11696,6 @@ nlu:
     - troneuroperewardcoin
     - tronipay
     - tronpad
-    - tronweeklyjournal
     - tropical finance
     - troy
     - trubadger
@@ -11168,7 +11712,6 @@ nlu:
     - truehkd
     - true pnl
     - true usd
-    - trumpcoin
     - trust
     - trustbase
     - trusted node
@@ -11224,8 +11767,8 @@ nlu:
     - tvt
     - twelve legions
     - twinci
-    - twindex
     - twin finance
+    - twinu
     - twirl governance token
     - twist
     - txa
@@ -11237,6 +11780,7 @@ nlu:
     - typhoon cash
     - typhoon network
     - tzbtc
+    - uangmarket
     - ubeswap
     - ubex
     - ubg token
@@ -11261,6 +11805,7 @@ nlu:
     - ufo gaming
     - ufo gaming wormhole
     - uhive
+    - ukrainedao flag nft
     - ulanco
     - uland
     - ulgen hash power
@@ -11340,7 +11885,7 @@ nlu:
     - unikoin gold
     - unilab network
     - unilayer
-    - unilock network
+    - unilock network 2
     - unimex network
     - unimoon
     - union fair coin
@@ -11372,6 +11917,7 @@ nlu:
     - unitrade
     - unitus
     - unitycom
+    - unity network
     - unity protocol
     - unityventures
     - universal basic income
@@ -11400,6 +11946,7 @@ nlu:
     - unlend finance
     - unlimited fiscusfyi
     - unlimitedip
+    - unlock
     - unlock protocol
     - unmarshal
     - unobtanium
@@ -11433,6 +11980,7 @@ nlu:
     - upstabletoken
     - uptoken
     - up token
+    - uptrend
     - uptrennd
     - uquid coin
     - uraniumx
@@ -11480,10 +12028,10 @@ nlu:
     - uxd stablecoin
     - uzumaki inu
     - uzyth
+    - v3s share
     - vabble
     - vacay
     - vader protocol
-    - vader usd
     - vagabond
     - vai
     - vaiot
@@ -11495,6 +12043,7 @@ nlu:
     - valkyrie protocol
     - valkyrio token
     - valobit
+    - valor
     - valorfoundation
     - value finance
     - value liquidity
@@ -11528,6 +12077,7 @@ nlu:
     - vechain
     - veco
     - vecrv dao yvault
+    - vector finance
     - vectorium
     - vectorspace
     - vedao
@@ -11535,7 +12085,6 @@ nlu:
     - vee finance
     - vegannation greencoin
     - vega protocol
-    - vegaswap
     - vegawallet token
     - vegeta inu
     - veggiecoin
@@ -11543,6 +12092,7 @@ nlu:
     - velas
     - velaspad
     - veldorabsc
+    - velerodao
     - veles
     - velhalla
     - velo
@@ -11602,6 +12152,7 @@ nlu:
     - vesq
     - vesta finance
     - vestallytoken
+    - vesta stable
     - vestchain
     - vether
     - vethor token
@@ -11627,9 +12178,9 @@ nlu:
     - vidyx
     - vig
     - vigorus
-    - viking legend
     - vikings finance
     - vikings inu
+    - vikings valhalla
     - viking swap
     - vikkytoken
     - vinci
@@ -11671,6 +12222,7 @@ nlu:
     - vlad finance
     - vlaunch
     - vmates
+    - vm tycoons businesses
     - vndc
     - vntchain
     - vn token
@@ -11684,11 +12236,11 @@ nlu:
     - volentix vtx
     - vollar
     - volt
+    - volta
     - voltage
     - volt inu
     - volts finance
     - voltswap
-    - voltz
     - voovoo
     - vortex dao
     - vortex defi
@@ -11711,6 +12263,7 @@ nlu:
     - v systems
     - vulcan forged
     - vulkania
+    - vulture peak
     - vvs finance
     - vvsp
     - vybit
@@ -11737,6 +12290,7 @@ nlu:
     - wallet plus x
     - wallet swap
     - wallfair
+    - wallstreetbets com
     - wall street bets dapp
     - wallstreetbets token
     - wall street capital
@@ -11750,11 +12304,16 @@ nlu:
     - wanaka farm
     - wanaka farm wairere token
     - wanamoon
+    - wanavax
+    - wanbtc
     - wanchain
     - wanda exchange
-    - wanderlust
+    - waneth
     - wannaswap
     - wanswap
+    - wanusdc
+    - wanusdt
+    - wanxrp
     - wapswap finance
     - war bond
     - warden
@@ -11764,6 +12323,7 @@ nlu:
     - warp finance
     - warranty chain
     - warrior rare essentials
+    - warriors land fuel
     - warrior token
     - warship battles
     - wasabix
@@ -11773,6 +12333,7 @@ nlu:
     - watchdo
     - watchmen
     - watchtower
+    - watchtower 2
     - water
     - waterfall finance
     - waterfall governance token
@@ -11780,6 +12341,7 @@ nlu:
     - waultswap
     - waultswap polygon
     - wault usd
+    - wave pay coin
     - waves
     - waves community token
     - waves ducks
@@ -11797,6 +12359,8 @@ nlu:
     - wealthy habits
     - wearesatoshi
     - weave
+    - web3 doge
+    - web3games
     - web3 inu
     - webchain
     - webcoin
@@ -11840,6 +12404,7 @@ nlu:
     - wetrust
     - weway
     - weyu
+    - wfdp
     - wgmi
     - whale
     - whale coin
@@ -11876,6 +12441,7 @@ nlu:
     - wifedoge
     - wifi coin
     - wiggly finance
+    - wigoswap
     - wiix coin
     - wiki token
     - wild beast block
@@ -11917,13 +12483,18 @@ nlu:
     - wizard vault nftx
     - wizarre scroll
     - wliti
+    - wlitidao
     - wmatic
     - wodex
+    - wohpedao
     - wojak finance
+    - wolfcoin
     - wolfecoin
     - wolf game wool
     - wolfgirl
     - wolf girl
+    - wolfi
+    - wolf_king
     - wolf pups
     - wolfsafepoorpeople
     - wolfsafepoorpeople polygon
@@ -11935,6 +12506,7 @@ nlu:
     - wom token
     - wonderfi tokenized stock
     - wonderhero
+    - wonderhero hon
     - wonderland
     - woodcoin
     - woof token
@@ -11961,6 +12533,7 @@ nlu:
     - worthpad
     - worthwhile
     - wownero
+    - wowperson
     - wowswap
     - wozx
     - wpp token
@@ -11991,10 +12564,11 @@ nlu:
     - wrapped ecomi
     - wrapped elrond
     - wrapped fantom
-    - wrapped fct
     - wrapped filecoin
+    - wrapped flow
     - wrapped gen 0 cryptokitties
     - wrapped hec
+    - wrapped hoo
     - wrapped huobi token
     - wrapped iotex
     - wrapped kadena
@@ -12004,6 +12578,7 @@ nlu:
     - wrapped matic tezos
     - wrapped memory
     - wrapped metrix
+    - wrapped moonbeam
     - wrapped moon cats
     - wrapped nce
     - wrapped ncg
@@ -12013,23 +12588,33 @@ nlu:
     - wrapped okt
     - wrapped one
     - wrapped pkt
+    - wrapped police
     - wrapped sexod
     - wrapped solana
     - wrapped staked metaversepro
     - wrapped staked necc
     - wrapped staked olympus
+    - wrapped staked scr
+    - wrapped star
     - wrapped statera
     - wrapped steth
+    - wrapped syscoin
+    - wrapped telos
     - wrapped terra
     - wrapped tezos
     - wrapped tfuel
     - wrapped ton crystal
+    - wrapped tron
     - wrapped usd
     - wrapped usdc
     - wrapped usdt
     - wrapped usdt allbridge from polygon
     - wrapped ust
+    - wrapped vechain
+    - wrapped velas
     - wrapped virgin gen 0 cryptokitties
+    - wrapped vsolidus
+    - wrapped wan
     - wrapped weth
     - wrapped widecoin
     - wrapped wrx
@@ -12037,6 +12622,7 @@ nlu:
     - wrapped xdai
     - wrapped xmr btse
     - wrapped xrp
+    - wsb sh
     - wtf token
     - wula
     - wwbtc
@@ -12045,22 +12631,24 @@ nlu:
     - x2
     - x 2
     - x22
+    - x2y2
     - x3swap
     - x42 protocol
     - x8 project
     - x99token
-    - xaavea
-    - xaaveb
     - x ae a 12
     - xaea xii token
     - xanalia
+    - xape
     - xaurum
+    - xave coin
     - xbe token
     - xbit
     - x block
     - xbn
     - xbn community token
     - xbullion
+    - xbullion_silver
     - xbx
     - xcad network
     - xcarnival
@@ -12133,6 +12721,7 @@ nlu:
     - xolo metaverse
     - xov
     - xp
+    - xpad
     - xpandacoin
     - xpansion game
     - xp network
@@ -12140,17 +12729,19 @@ nlu:
     - xpose protocol
     - x power chain
     - x protocol
+    - xquake
     - xrdoge
     - xre global
     - xriba
     - xroad
     - xrpalike gene
-    - xrp apes
     - xrp bep2
     - xrp classic
+    - xr shiba inu
     - xsgd
     - xsigma
     - xsl labs
+    - xstorage
     - xsushi
     - xsuter
     - xswap
@@ -12178,6 +12769,7 @@ nlu:
     - xyo network
     - xysl
     - yaan launchpad
+    - yachtx
     - yacoin
     - yadacoin
     - yaki gold
@@ -12188,6 +12780,8 @@ nlu:
     - yap stone
     - yarloo
     - yas
+    - yasha dao
+    - yawww
     - yaxis
     - yay games
     - yayo coin
@@ -12310,7 +12904,6 @@ nlu:
     - ytofu
     - ytsla finance
     - ytv coin
-    - yuan
     - yuan chain coin
     - yucreat
     - yugi
@@ -12320,6 +12913,7 @@ nlu:
     - yunex
     - yup
     - yusra
+    - yuzuswap
     - yvault lp ycurve
     - yvboost
     - yvs finance
@@ -12329,6 +12923,7 @@ nlu:
     - zac
     - zada
     - zafira
+    - zagent gem
     - zaif token
     - zaigar finance
     - zam io
@@ -12336,6 +12931,7 @@ nlu:
     - zano
     - zantepay
     - zap
+    - zappy
     - zarcash
     - zasset zusd
     - zatcoin
@@ -12390,6 +12986,7 @@ nlu:
     - zeto
     - zetta bitcoin hashrate token
     - zeus10000
+    - zeus node finance
     - zeusshield
     - zeuxcoin
     - zfarm
@@ -12399,7 +12996,10 @@ nlu:
     - zilchess
     - zilla
     - zilla dao
+    - zilla finance 2 0
     - zillamatrix
+    - zilla shares
+    - zilla shares 2 0
     - zillioncoin
     - zilliqa
     - zilpay wallet
@@ -12410,6 +13010,7 @@ nlu:
     - zilwall paint
     - zimbocash
     - zin
+    - zinari
     - zion
     - zioncoin
     - zionomics
@@ -12420,7 +13021,7 @@ nlu:
     - zipswap
     - ziticoin
     - zjlt distributed factoring network
-    - zkswap
+    - zkspace
     - zktube
     - zlot
     - zmine
@@ -12432,13 +13033,14 @@ nlu:
     - zoe cash
     - zoid pay
     - zoints
-    - zomainfinity
     - zombiecake
     - zombie inu
     - zombie rising
     - zombie skull games
+    - zombie world z
     - zomfi
     - zomi
+    - zone
     - zonecoin
     - zoobit
     - zoo coin
@@ -12471,6 +13073,7 @@ nlu:
     - zuz protocol
     - zynecoin
     - zyro
+    - zyrri
     - zytara dollar
     - zyx
     - zzz finance v2

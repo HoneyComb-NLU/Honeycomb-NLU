@@ -17,6 +17,11 @@ rules:
   - intent: simple_coin_price
   - action: action_fetch_price
 
+- rule: Return chart when user asks for it
+  steps:
+  - intent: simple_chart
+  - action: action_simple_chart
+
 - rule: bot challenge
   steps:
   - intent: bot_challenge

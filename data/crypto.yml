@@ -40,3 +40,9 @@ nlu:
     - price of [btc](coin)
     - [2shares](coin) in [inr](currency), [sgd](currency) and [eur](currency)
     - what is the price of [2x2](coin) in [eur](currency) and [sgd](currency)?
+
+- intent: simple_chart
+  examples: |
+    - can i get the chart of [bitcoin](coin) in [eur](currency) from 25th january?
+    - [ethereum](coin) price since 12th march, 2021
+    - chart of [slp](coin) from last october
