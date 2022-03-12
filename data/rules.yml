@@ -19,8 +19,8 @@ rules:
 
 - rule: Return chart when user asks for it
   steps:
-  - intent: simple_chart
-  - action: action_simple_chart
+  - intent: chart
+  - action: action_chart
 
 - rule: bot challenge
   steps:

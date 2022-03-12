@@ -20,10 +20,23 @@ slots:
     - type: from_entity
       entity: time
 
+  chart_type:
+    type: categorical
+    influence_conversation: false
+    values:
+      - market cap
+      - price
+      - volume
+      - ohlc
+    mappings:
+    - type: from_entity
+      entity: chart_type
+
 entities:
   - coin
   - currency
   - time
+  - chart_type
 
 intents:
   - greet
@@ -35,8 +48,10 @@ intents:
       use_entities: ["coin"]
   - simple_coin_price:
       use_entities: ["coin", "currency"]
-  - simple_chart:
-      use_entities: ["coin", "currency", "time"]
+  - chart:
+      use_entities: ["coin", "currency", "time", "chart_type"]
+  # - ohlc_chart:
+  #     use_entities: ["coin", "currency", "time", "chart_type"]
   - mood_unhappy
   - bot_challenge
   - need_help
@@ -45,7 +60,7 @@ intents:
 actions:
   - action_search_coin
   - action_fetch_price
-  - action_simple_chart
+  - action_chart
   - action_greet
   - action_help
   - action_happy

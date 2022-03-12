@@ -48,6 +48,7 @@ pipeline:
   - name: "DucklingEntityExtractor"
     url: "http://localhost:8000"
     dimensions: ["time"]
+    locale: "en_GB"
   - name: DIETClassifier
     epochs: 100
     entity_recognition: False

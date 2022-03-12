@@ -1,5 +1,4 @@
 version: "3.0"
-
 nlu:
 - intent: coin_search
   examples: |
@@ -17,7 +16,6 @@ nlu:
     - id for [2022moon](coin) pls
     - give me the id for [bitcoin](coin)
     - give me [bitcoin](coin) id
-
 - intent: simple_coin_price
   examples: |
     - can i get price of [bitcoin](coin)?
@@ -40,9 +38,17 @@ nlu:
     - price of [btc](coin)
     - [2shares](coin) in [inr](currency), [sgd](currency) and [eur](currency)
     - what is the price of [2x2](coin) in [eur](currency) and [sgd](currency)?
-
-- intent: simple_chart
+- intent: chart
   examples: |
     - can i get the chart of [bitcoin](coin) in [eur](currency) from 25th january?
-    - [ethereum](coin) price since 12th march, 2021
+    - [ethereum](coin) chart price since 12th march, 2021
     - chart of [slp](coin) from last october
+    - can i get [price](chart_type) chart of [alpaca](coin) from 27th january of 2019
+    - [market cap](chart_type) chart [bitcoin](coin) since 2020
+    - [2shares](coin) chart [value](chart_type) from 2019
+    - show [volume](chart_type) chart of [2x2](coin)
+    - [market volume](chart_type) chart of [eth](coin) since 12/03/21
+    - [highest value](chart_type) chart [slp](coin) from 21-05-19 pls
+    - [slp](coin) chart since 12/09/20.
+    - [price](chart_type) chart [ethereum](coin)
+    - can i get [bitcoin](coin) price since 20-12-2019

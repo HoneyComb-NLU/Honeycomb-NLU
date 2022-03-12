@@ -30,9 +30,10 @@ coin_ids = []
 coin_symbol = []
 coin_names = []
 for i in all_coins:
-    coin_ids.append(i['id'])
-    coin_symbol.append(i['symbol'])
-    coin_names.append(i['name'].lower())
+    if (i['id'] != "" and i['symbol'] != "" and i['name'] != ""): 
+        coin_ids.append(i['id'])
+        coin_symbol.append(i['symbol'])
+        coin_names.append(i['name'].lower())
 currencies = [a for a in currencies]
 
 yaml = YAML()
@@ -48,7 +49,7 @@ stream1.close()
 stream = open("./data/coins.yml", "w", encoding = 'utf-8')
 stream1 = open("./data/currencies.yml", "w", encoding = 'utf-8')
 
-ste["nlu"][0]['examples'] = '- ' + '\n- '.join([i.replace('-', ' ') for i in coin_ids])
+ste["nlu"][0]['examples'] = '- ' + '\n- '.join([i.replace('-', ' ') for i in coin_ids] + coin_names)
 ste1["nlu"][0]['examples'] = '- ' + '\n- '.join(currencies)
 
 yaml.dump(ste, stream)
@@ -136,6 +137,8 @@ class ActionFetchPrice(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         coin_raw = tracker.get_slot("coin")
         currency_raw = tracker.get_slot("currency")
+        SlotSet("coin", None)
+        SlotSet("currency", None)
         if not coin_raw:
             coin_raw = []
         elif not currency_raw:
@@ -160,7 +163,7 @@ class ActionFetchPrice(Action):
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
         dispatcher.utter_message(json_message=msg)
-        return [SlotSet("coin", None), SlotSet("currency", None)]
+        return []
 
 
 class ActionGreet(Action):
@@ -261,10 +264,10 @@ class ActionBotChallenge(Action):
         return []
 
 
-class ActionSimpleChart(Action):
+class ActionChart(Action):
 
     def name(self) -> Text:
-        return "action_simple_chart"
+        return "action_chart"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -272,14 +275,21 @@ class ActionSimpleChart(Action):
         coin_raw = tracker.get_slot('coin')
         currency_raw = tracker.get_slot('currency')
         time_raw = tracker.get_slot('time')
+        chart_type = tracker.get_slot('chart_type')
+        SlotSet("coin", None)
+        SlotSet("currency", None)
+        SlotSet("time", None)
+        SlotSet("chart_type", None)
         if not coin_raw:
             coin_raw = []
         if not currency_raw:
             currency_raw = []
-        if not time_raw:
-            time_raw = ""
-
-
+        if time_raw['to'] == None:
+            time_raw['to'] = ""
+        if time_raw['from'] == None:
+            time_raw['from'] = ""
+        if chart_type == None:
+            chart_type = "price"
         coins = [i.lower() for i in list(set(coin_raw))]
         print(coins)
         currencies = [i.lower() for i in list(set(currency_raw))]
@@ -296,10 +306,11 @@ class ActionSimpleChart(Action):
             "slots": {
                 "coins": coins,
                 "currencies": currencies,
-                "time": time_raw
+                "time": time_raw,
+                "chart_type": chart_type
             },
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
         dispatcher.utter_message(json_message=msg)
-        return [SlotSet("coin", None), SlotSet("currency", None), SlotSet("time", None)]
+        return []
     
