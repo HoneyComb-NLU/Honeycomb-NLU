@@ -16,6 +16,11 @@ nlu:
     - id for [2022moon](coin) pls
     - give me the id for [bitcoin](coin)
     - give me [bitcoin](coin) id
+    - id
+    - name
+    - what is the id
+    - what name
+
 - intent: simple_coin_price
   examples: |
     - can i get price of [bitcoin](coin)?
@@ -38,6 +43,12 @@ nlu:
     - price of [btc](coin)
     - [2shares](coin) in [inr](currency), [sgd](currency) and [eur](currency)
     - what is the price of [2x2](coin) in [eur](currency) and [sgd](currency)?
+    - price
+    - give me price
+    - what is price of
+    - what is the price
+    - give me the price
+
 - intent: chart
   examples: |
     - can i get the chart of [bitcoin](coin) in [eur](currency) from 25th january?
@@ -52,3 +63,18 @@ nlu:
     - [slp](coin) chart since 12/09/20.
     - [price](chart_type) chart [ethereum](coin)
     - can i get [bitcoin](coin) price since 20-12-2019
+    - price chart
+    - chart of volume
+    - cap chart
+
+- intent: coin_data
+  examples: |
+    - data about [slp](coin)
+    - give me information about [bitcoin](coin)
+    - what is [eth](coin)
+    - what is [slp](coin)
+    - [bitcoin](coin)
+    - [alpaca](coin)
+    - [slp](coin)
+    - [ethereum](coin) information
+    - [smooth love potion](coin) coin data

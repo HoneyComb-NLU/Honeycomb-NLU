@@ -83,6 +83,20 @@ stories:
   - intent: goodbye
   - action: action_goodbye
 
+- story: greet and coin data
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: coin_data
+  - action: action_coin_data
+
+- story: coin data and goodbye
+  steps:
+  - intent: coin_data
+  - action: action_coin_data
+  - intent: goodbye
+  - action: action_goodbye
+
 - story: greet and chart
   steps:
   - intent: greet

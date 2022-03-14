@@ -22,6 +22,11 @@ rules:
   - intent: chart
   - action: action_chart
 
+- rule: Return coin data when user asks for it
+  steps:
+  - intent: coin_data
+  - action: action_coin_data
+
 - rule: bot challenge
   steps:
   - intent: bot_challenge

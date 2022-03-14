@@ -70,7 +70,8 @@ def find_valid_options(coins, currency = None):
         currency = []
     valid_coins = []
     valid_currencies = []
-    
+    print("===================================================")
+    print(f"Searching for valid coins; Original: {coins}")
     for i in coins:
         if i.replace(' ', '-') in coin_ids:
             print(f"Match in ids found!: {i}")
@@ -80,20 +81,21 @@ def find_valid_options(coins, currency = None):
             valid_coins.append(coin_ids[coin_names.index(i)])
             print(coin_ids[coin_names.index(i)])
         else:
-            ids = process.extractOne(i.replace(' ', '-'), coin_ids, scorer = fuzz.WRatio)[0]
+            ids = process.extractOne(i.replace(' ', '-'), coin_ids)[0]
             print(f"Closest id match: {ids}")
-            names = process.extractOne(i, coin_names, scorer = fuzz.WRatio)[0]
+            names = process.extractOne(i, coin_names)[0]
             print(f"Closest name match: {names}")
             if (coin_ids.index(ids) != coin_names.index(names)):
                 valid_coins.append(coin_ids[coin_names.index(names)])
             valid_coins.append(ids)
+    print(f"Searching for valid currencies; Original: {currency}")
     for i in currency:
         if i in currencies:
             valid_currencies.append(i)
         else:
             c = process.extractOne(i, currencies, scorer = fuzz.WRatio)[0]
             valid_currencies.append(c)
-        
+    print("===================================================")
     return {"coins" : valid_coins, "currencies" : valid_currencies}
  
 #   ===========================   #
@@ -109,20 +111,23 @@ class ActionSearchCoin(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         msg = tracker.get_slot('coin')
         if not msg:
-            coins = []
+            coins = list()
         else:
             coins = msg[0].lower()
-            choices = find_valid_options(coins)['coins']
-            print(choices)
+        choices = find_valid_options(coins)['coins']
+        print("***********************************************")
+        print(f"Search coin intent: choices are {choices}")
         msg = {
             "intent": tracker.get_intent_of_latest_message(),
             "slots": {
                 "coins": choices,
                 "currencies": [],
-                "time" : ""
+                "time" : {},
+                "chart_type" : ""
             },
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
+        print("***********************************************")
         dispatcher.utter_message(json_message=msg)
         return [SlotSet("coin", None)]
     
@@ -137,33 +142,33 @@ class ActionFetchPrice(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         coin_raw = tracker.get_slot("coin")
         currency_raw = tracker.get_slot("currency")
-        SlotSet("coin", None)
-        SlotSet("currency", None)
         if not coin_raw:
-            coin_raw = []
+            coin_raw = list()
         elif not currency_raw:
-            currency_raw = []
+            currency_raw = list()
 
         coins = [i.lower() for i in list(set(coin_raw))]
-        print(coins)
         currencies = [i.lower() for i in list(set(currency_raw))]
-        print(currencies)
         choices = find_valid_options(coins, currencies)
         coins = choices['coins']
         currencies = choices['currencies']
-        print(coins, currencies)
+        print("***********************************************")
+        print(f"Price intent: Coins {coins}, currencies {currencies}")
         intent = tracker.get_intent_of_latest_message()
         msg = {
             "intent": intent,
             "slots": {
                 "coins": coins,
                 "currencies": currencies,
-                "time": ""
+                "time": {},
+                "chart_type" : ""
             },
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
+        print("***********************************************")
         dispatcher.utter_message(json_message=msg)
-        return []
+        return [SlotSet("coin", None),
+        SlotSet("currency", None)]
 
 
 class ActionGreet(Action):
@@ -276,30 +281,23 @@ class ActionChart(Action):
         currency_raw = tracker.get_slot('currency')
         time_raw = tracker.get_slot('time')
         chart_type = tracker.get_slot('chart_type')
-        SlotSet("coin", None)
-        SlotSet("currency", None)
-        SlotSet("time", None)
-        SlotSet("chart_type", None)
         if not coin_raw:
-            coin_raw = []
+            coin_raw = list()
+        print(currency_raw)
         if not currency_raw:
-            currency_raw = []
-        if time_raw['to'] == None:
-            time_raw['to'] = ""
-        if time_raw['from'] == None:
-            time_raw['from'] = ""
+            currency_raw = list()
+        if time_raw == None:
+            time_raw = {}
         if chart_type == None:
             chart_type = "price"
         coins = [i.lower() for i in list(set(coin_raw))]
-        print(coins)
         currencies = [i.lower() for i in list(set(currency_raw))]
-        print(currencies)
         choices = find_valid_options(coins, currencies)
 
         coins = choices['coins']
         currencies = choices['currencies']
-        print(coins, currencies)
-
+        print("***********************************************")
+        print(f"Chart intent: Coins {coins}, currencies {currencies}, chart type {chart_type}")
         intent = tracker.get_intent_of_latest_message()
         msg = {
             "intent": intent,
@@ -311,6 +309,47 @@ class ActionChart(Action):
             },
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
+        print("***********************************************")
         dispatcher.utter_message(json_message=msg)
-        return []
+        return [SlotSet("coin", None),
+        SlotSet("currency", None),
+        SlotSet("time", None),
+        SlotSet("chart_type", None)]
     
+
+class ActionCoinData(Action):
+    def name(self) -> Text:
+        return "action_coin_data"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        coin_raw = tracker.get_slot("coin")
+        currency_raw = tracker.get_slot("currency")
+        if not coin_raw:
+            coin_raw = list()
+        elif not currency_raw:
+            currency_raw = list()
+
+        coins = [i.lower() for i in list(set(coin_raw))]
+        currencies = [i.lower() for i in list(set(currency_raw))]
+        choices = find_valid_options(coins, currencies)
+        coins = choices['coins']
+        currencies = choices['currencies']
+        print("***********************************************")
+        print(f"Coin data intent: Coins {coins}, currencies {currencies}")
+        intent = tracker.get_intent_of_latest_message()
+        msg = {
+            "intent": intent,
+            "slots": {
+                "coins": coins,
+                "currencies": currencies,
+                "time": {},
+                "chart_type" : ""
+            },
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        print("***********************************************")
+        dispatcher.utter_message(json_message=msg)
+        return [SlotSet("coin", None),
+        SlotSet("currency", None)]
