@@ -24,10 +24,10 @@ slots:
     type: categorical
     influence_conversation: false
     values:
-      - market cap
-      - price
-      - volume
-      - ohlc
+      - "market cap"
+      - "price"
+      - "volume"
+      - "ohlc"
     mappings:
     - type: from_entity
       entity: chart_type

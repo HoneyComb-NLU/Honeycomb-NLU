@@ -479,6 +479,7 @@ nlu:
     - aetherius
     - aetherv2
     - aeur
+    - aevo
     - aevolve token
     - aezora
     - afen blockchain
@@ -1404,6 +1405,7 @@ nlu:
     - bedpage coin
     - bedrock
     - beechat
+    - beefy escrowed fantom
     - beefy finance
     - beekan
     - beenode
@@ -1469,6 +1471,7 @@ nlu:
     - bezoge earth
     - bezosdoge
     - bfg token
+    - bficoin
     - bfk warzone
     - bgan vault nftx
     - bgl token
@@ -2537,7 +2540,6 @@ nlu:
     - clintex cti
     - cliq
     - cloakcoin
-    - clock vault nftx
     - cloud9bsc finance
     - cloudbric
     - cloudname
@@ -2788,6 +2790,7 @@ nlu:
     - cover protocol
     - covesting
     - covicoin
+    - covid 19 recovery token
     - covid doge
     - covid slice
     - covid token
@@ -3096,6 +3099,7 @@ nlu:
     - curryswap
     - curve dao token
     - curve dao token wormhole
+    - curve fi gdai gusdc gusdt
     - curve fi ydai yusdc yusdt ytusd
     - curvehash
     - custom contract network
@@ -3146,7 +3150,6 @@ nlu:
     - daddy dogeback
     - daddyeth
     - daddy ethereum
-    - daddy shark
     - daddyshiba
     - daddyusdt
     - daddyyorkie
@@ -3332,6 +3335,7 @@ nlu:
     - defi gold
     - defihelper governance token
     - defi holdings
+    - defihorse
     - defi hunters dao
     - defiking
     - defi kingdoms
@@ -3639,7 +3643,6 @@ nlu:
     - dogedead
     - dogedealer
     - dogedi
-    - dogedrinks
     - dogefather
     - dogefather token
     - dogefi
@@ -3826,6 +3829,7 @@ nlu:
     - dt dragon coin
     - dtng
     - dtravel
+    - dtsla
     - dtube coin
     - ducato protocol token
     - duckdaodime
@@ -3851,6 +3855,7 @@ nlu:
     - dusd network
     - dusk network
     - dust
+    - dust protocol
     - dust token
     - dvf
     - dvision network
@@ -5597,6 +5602,7 @@ nlu:
     - hoo token
     - hope galaxy
     - hope token
+    - hoppers game
     - hoppy
     - hopr
     - hoqu
@@ -6388,6 +6394,7 @@ nlu:
     - kommunitas
     - komodo
     - kompass
+    - kompete
     - kondux
     - kong land alpha citizenship
     - konjungate
@@ -6753,6 +6760,7 @@ nlu:
     - loopnetwork
     - loopring
     - loopringcoin v2 wormhole
+    - loopswap
     - loop token
     - loot
     - loot network
@@ -7261,6 +7269,7 @@ nlu:
     - metagame
     - metagame arena
     - metagamehub dao
+    - metagamespace
     - metagaming
     - metagaming guild
     - metagamz
@@ -7494,7 +7503,6 @@ nlu:
     - mines of dalarnia
     - mineum
     - mini
-    - minibaby
     - mini baby doge
     - minibitcoin
     - minibnb
@@ -8159,6 +8167,7 @@ nlu:
     - nkcl classic
     - nkn
     - nnb token
+    - noah
     - noahark
     - noah coin
     - noa play
@@ -8187,6 +8196,7 @@ nlu:
     - nole npc
     - nolewater
     - nolian credits
+    - no limit ape
     - nolimitcoin
     - nominex
     - nomy
@@ -9279,7 +9289,6 @@ nlu:
     - pumapay
     - puml better health
     - pump coin
-    - pumpeth
     - pumpkin inu
     - pumpkin punks
     - pumpshibax
@@ -9806,6 +9815,7 @@ nlu:
     - rubix
     - rublix
     - ruby currency
+    - ruby play network
     - rudolph coin
     - ruff
     - rug busters
@@ -9931,6 +9941,7 @@ nlu:
     - saffron finance
     - safle
     - safufide
+    - safuu
     - safuyield protocol
     - sai
     - sail
@@ -10090,6 +10101,7 @@ nlu:
     - secret erc20
     - secret finance
     - secretsky finance
+    - secretworld
     - securabyte protocol
     - secure
     - secure cash
@@ -10292,6 +10304,7 @@ nlu:
     - shield finance
     - shield network
     - shield protocol
+    - shield protocol 2
     - shield protocol token
     - shiftal coin
     - shih tzu
@@ -10676,6 +10689,7 @@ nlu:
     - soulocoin
     - soul swap
     - sound coin
+    - souni token
     - south african tether
     - southxchange coin
     - sov
@@ -10868,6 +10882,7 @@ nlu:
     - staked near
     - staked olympus
     - staked olympus v1
+    - staked tarot
     - stakedthorus
     - stakedzen
     - stakehound
@@ -12067,6 +12082,7 @@ nlu:
     - utopia
     - utopia 2
     - utopia genesis foundation
+    - utopia utility token
     - utrust
     - utu coin
     - uwu vault nftx
@@ -12097,6 +12113,7 @@ nlu:
     - valuto
     - vampirestakecapital
     - vancat
+    - vancat 2
     - vanci finance
     - vanilla
     - vanilla network
@@ -12408,6 +12425,7 @@ nlu:
     - web3 doge
     - web3games
     - web3 inu
+    - web3land
     - webchain
     - webcoin
     - web coin pay
@@ -13404,7 +13422,7 @@ nlu:
     - 6ix9ine chain
     - 7eleven
     - 7plus coin
-    - 7shares
+    - code 7
     - 7up
     - 808ta token
     - realt token - 8181 bliss st, detroit, mi 48234
@@ -13600,6 +13618,7 @@ nlu:
     - aetherius
     - aetherv2
     - aeur
+    - always evolving
     - aevolve token
     - azzure
     - afen blockchain
@@ -14525,6 +14544,7 @@ nlu:
     - bedpage coin
     - bedrock
     - beechat
+    - beefy escrowed fantom
     - beefy.finance
     - beekan / beenews
     - beenode
@@ -14590,6 +14610,7 @@ nlu:
     - bezoge earth
     - bezosdoge
     - bfg token
+    - bficoin
     - bfk warzone
     - bgan vault (nftx)
     - bgl token
@@ -15658,7 +15679,6 @@ nlu:
     - clintex cti
     - cliq
     - cloakcoin
-    - clock vault (nftx)
     - cloud9bsc.finance
     - cloudbric
     - cloudname
@@ -15909,6 +15929,7 @@ nlu:
     - cover protocol
     - covesting
     - covicoin
+    - covid-19 recovery token
     - covid doge
     - covid slice
     - covid token
@@ -16217,6 +16238,7 @@ nlu:
     - curryswap
     - curve dao token
     - curve dao token (wormhole)
+    - curve.fi gdai/gusdc/gusdt
     - lp-ycurve
     - curvehash
     - custom contract network
@@ -16267,7 +16289,6 @@ nlu:
     - daddy dogeback
     - daddyeth
     - daddy ethereum
-    - daddy shark
     - daddyshiba
     - daddyusdt
     - daddyyorkie
@@ -16453,6 +16474,7 @@ nlu:
     - defi gold
     - defihelper governance token
     - defi holdings
+    - defihorse
     - defi hunters dao
     - defiking
     - defi kingdoms
@@ -16760,7 +16782,6 @@ nlu:
     - dogedead
     - dogedealer
     - dogedi
-    - dogedrinks
     - dogefather
     - dogefather token
     - dogefi
@@ -16947,6 +16968,7 @@ nlu:
     - dt dragon coin
     - dtng
     - dtravel
+    - tesla tokenized stock defichain
     - dtube coin
     - ducato protocol token
     - duckdaodime
@@ -16972,6 +16994,7 @@ nlu:
     - dusd network
     - dusk network
     - dust
+    - dust protocol
     - dust token
     - deversifi
     - dvision network
@@ -18718,6 +18741,7 @@ nlu:
     - hoo token
     - hope galaxy
     - hope token
+    - hoppers game
     - hoppy
     - hopr
     - hoqu
@@ -19509,6 +19533,7 @@ nlu:
     - kommunitas
     - komodo
     - kompass
+    - kompete
     - kondux
     - kong land alpha citizenship
     - konjungate
@@ -19874,6 +19899,7 @@ nlu:
     - loopnetwork
     - loopring
     - loopringcoin v2 (wormhole)
+    - loopswap
     - loop finance
     - lootex
     - loot network
@@ -20382,6 +20408,7 @@ nlu:
     - metagame
     - metagame arena
     - metagamehub dao
+    - metagamespace
     - metagaming
     - metagaming guild
     - metagamz
@@ -20615,7 +20642,6 @@ nlu:
     - mines of dalarnia
     - mineum
     - mini
-    - minibaby
     - mini baby doge
     - minibitcoin
     - minibnb
@@ -21280,6 +21306,7 @@ nlu:
     - nkcl classic
     - nkn
     - nnb token
+    - noah
     - noahark
     - noah decentralized state coin
     - noa play
@@ -21308,6 +21335,7 @@ nlu:
     - npc dao
     - nolewater
     - nolian credits
+    - no limit ape
     - nolimitcoin
     - nominex
     - nomy
@@ -22400,7 +22428,6 @@ nlu:
     - pumapay
     - puml better health
     - pump coin
-    - pumpeth
     - pumpkin inu
     - pumpkin punks
     - pumpshibax
@@ -22927,6 +22954,7 @@ nlu:
     - rubix
     - rublix
     - ruby currency
+    - ruby play network
     - rudolph coin
     - ruff
     - rug busters
@@ -23052,6 +23080,7 @@ nlu:
     - saffron.finance
     - safle
     - safufide
+    - safuu
     - safuyield protocol
     - sai
     - sail
@@ -23211,6 +23240,7 @@ nlu:
     - secret (erc20)
     - secret finance
     - secretsky finance
+    - secretworld
     - securabyte protocol
     - secure
     - secure cash
@@ -23412,6 +23442,7 @@ nlu:
     - shieldex
     - coliquidity
     - shield network
+    - shield protocol [old]
     - shield protocol
     - shield protocol token
     - shiftal coin
@@ -23797,6 +23828,7 @@ nlu:
     - soulocoin
     - soul swap
     - sound coin
+    - souni token
     - south african tether
     - southxchange coin
     - sov
@@ -23989,6 +24021,7 @@ nlu:
     - staked near
     - staked olympus
     - staked olympus v1
+    - staked tarot
     - stakedthorus
     - stakedzen
     - stakedfiro
@@ -25188,6 +25221,7 @@ nlu:
     - crypton
     - utopia
     - utopia genesis foundation
+    - utopia (utility token)
     - utrust
     - utu coin
     - uwu vault (nftx)
@@ -25217,6 +25251,7 @@ nlu:
     - value network token
     - valuto
     - vampirestakecapital
+    - vancat [old]
     - vancat
     - vanci finance
     - vanilla
@@ -25529,6 +25564,7 @@ nlu:
     - web3 doge
     - web3games
     - web3 inu
+    - web3land
     - mintme.com coin
     - webcoin
     - web coin pay

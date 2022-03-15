@@ -1,0 +1,42 @@
+version: "3.0"
+
+nlu:
+- synonym: market cap
+  examples: |
+    - cap
+    - market capppppp
+    - markettt cap
+    - market value
+    - high
+    - market high
+    - highest value
+    - high value
+    - highest market
+
+- synonym: price
+  examples: |
+    - value
+    - market price
+    - total price
+    - priceeeee
+    - price value
+    - price market
+    - coin price
+    - price of market
+
+- synonym: volume
+  examples: |
+    - volume
+    - market volume
+    - volume price
+    - total volume
+    - current volume
+    - coin volume
+    - volume market
+
+- synonym: ohlc
+  examples: |
+    - candle
+    - candle chart
+    - candle values
+    - ohlc chart

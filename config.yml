@@ -16,6 +16,8 @@ pipeline:
   - name: SpacyFeaturizer
   - name: RegexFeaturizer
     case_sensitive: False
+    use_word_boundaries: True
+    number_additional_patterns: 10
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
@@ -41,7 +43,6 @@ pipeline:
       "upper",
       "title",
       "digit",
-      "pattern",
     ],
     ["low", "title", "upper"]
   ]
@@ -52,7 +53,6 @@ pipeline:
   - name: DIETClassifier
     epochs: 100
     entity_recognition: False
-  - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
   - name: FallbackClassifier

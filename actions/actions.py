@@ -113,7 +113,7 @@ class ActionSearchCoin(Action):
         if not msg:
             coins = list()
         else:
-            coins = msg[0].lower()
+            coins = [msg[0].lower()]
         choices = find_valid_options(coins)['coins']
         print("***********************************************")
         print(f"Search coin intent: choices are {choices}")

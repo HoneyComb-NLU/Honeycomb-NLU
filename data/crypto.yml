@@ -52,21 +52,22 @@ nlu:
 - intent: chart
   examples: |
     - can i get the chart of [bitcoin](coin) in [eur](currency) from 25th january?
-    - [ethereum](coin) chart price since 12th march, 2021
+    - [ethereum](coin) chart [price]{"entity":"chart_type", "value":"price"} since 12th march, 2021
     - chart of [slp](coin) from last october
-    - can i get [price](chart_type) chart of [alpaca](coin) from 27th january of 2019
-    - [market cap](chart_type) chart [bitcoin](coin) since 2020
-    - [2shares](coin) chart [value](chart_type) from 2019
-    - show [volume](chart_type) chart of [2x2](coin)
-    - [market volume](chart_type) chart of [eth](coin) since 12/03/21
-    - [highest value](chart_type) chart [slp](coin) from 21-05-19 pls
+    - can i get [price]{"entity":"chart_type", "value":"price"} chart of [alpaca](coin) from 27th january of 2019
+    - [market cap]{"entity": "chart_type", "value":"market cap"} chart [bitcoin](coin) since 2020
+    - [2shares](coin) chart [value]{"entity":"chart_type", "value":"price"} from 2019
+    - show [volume]{"entity":"chart_type", "value":"volume"} chart of [2x2](coin)
+    - [market volume]{"entity":"chart_type", "value":"volume"} chart of [eth](coin) since 12/03/21
+    - [highest value]{"entity": "chart_type", "value":"market cap"} chart [slp](coin) from 21-05-19 pls
     - [slp](coin) chart since 12/09/20.
-    - [price](chart_type) chart [ethereum](coin)
-    - can i get [bitcoin](coin) price since 20-12-2019
-    - price chart
-    - chart of volume
-    - cap chart
-
+    - [price]{"entity":"chart_type", "value":"price"} chart [ethereum](coin)
+    - can i get [bitcoin](coin) [price]{"entity":"chart_type", "value":"price"} since 20-12-2019
+    - [price]{"entity":"chart_type", "value":"price"} chart
+    - chart of [volume]{"entity":"chart_type", "value":"volume"}
+    - [cap]{"entity": "chart_type", "value":"market cap"} chart
+    - [ohlc]{"entity": "chart_type", "value":"ohlc"} chart of [eth](coin) in [eur](currency) since 20th february of 2018
+    - [ohlc]{"entity": "chart_type", "value":"ohlc"} of [alpaca](coin) in [inr](currency)
 - intent: coin_data
   examples: |
     - data about [slp](coin)
