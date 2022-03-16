@@ -112,3 +112,19 @@ nlu:
     - are you a girl
     - boy or girl
     - bot or real
+
+- intent: chit_chat
+  examples: |
+    - what
+    - mlkmklc
+    - sfmlksdcmasjld
+    - age
+    - whats your age
+    - give me time
+    - translate please
+    - play some music
+    - can i get your number
+    - hows the weather today
+    - weather info
+    - calendar pls
+    - when is your birthday

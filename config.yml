@@ -17,7 +17,6 @@ pipeline:
   - name: RegexFeaturizer
     case_sensitive: False
     use_word_boundaries: True
-    number_additional_patterns: 10
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer

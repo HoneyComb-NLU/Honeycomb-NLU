@@ -20,6 +20,11 @@ nlu:
     - name
     - what is the id
     - what name
+    - [btc](coin) symbol pls
+    - name of [eth](coin) 
+    - what is the id of [slp](coin)
+    - symbol pls
+    - please give me id of [alpaca](coin)
 
 - intent: simple_coin_price
   examples: |
@@ -48,6 +53,11 @@ nlu:
     - what is price of
     - what is the price
     - give me the price
+    - give me the current value of [btc](coin) in [usd](currency)
+    - value [btc](coin)
+    - what is the value of [eth](coin)
+    - give current price of [slp](coin)
+
 
 - intent: chart
   examples: |
@@ -68,6 +78,14 @@ nlu:
     - [cap]{"entity": "chart_type", "value":"market cap"} chart
     - [ohlc]{"entity": "chart_type", "value":"ohlc"} chart of [eth](coin) in [eur](currency) since 20th february of 2018
     - [ohlc]{"entity": "chart_type", "value":"ohlc"} of [alpaca](coin) in [inr](currency)
+    - make [ohlc] chart of [shiba inu](coin) from 20th february 2020
+    - chart
+    - make chart price
+    - give volume chart
+    - give price chart pls
+    - pls make a chart
+    - market cap chart
+
 - intent: coin_data
   examples: |
     - data about [slp](coin)
@@ -79,3 +97,10 @@ nlu:
     - [slp](coin)
     - [ethereum](coin) information
     - [smooth love potion](coin) coin data
+    - info
+    - give me information
+    - pls give information about [slp](coin)
+    - what is [alpaca](coin)
+    - show me [eth](coin)
+    - can i get information [btc](coin)
+    - info of [2x2](coin)

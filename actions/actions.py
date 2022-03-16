@@ -18,6 +18,7 @@ from ruamel.yaml import YAML
 from thefuzz import fuzz, process
 from ruamel.yaml.comments import CommentedMap as OrderedDict
 import requests
+import random
 
 ### UPDATION AND INITIALIZATION
 #   ===========================   #
@@ -26,36 +27,42 @@ import requests
 # all_coins = [a for a in cur.execute("SELECT id, symbol, name FROM coin_list")]
 all_coins = requests.get("https://api.coingecko.com/api/v3/coins/list").json()
 currencies = requests.get("https://api.coingecko.com/api/v3/simple/supported_vs_currencies").json()
+responses = {"greet": ["Hi", "Hey there!", "Hello thereeeee", "ayo waddup boi", "wazaaaaaaaaaaaaaaaaap", "Hiya!"],
+"affirm" : ["That's great!", "That is good to hear.", "who tf asked bro", "no shit bitch", "I'm so glad :D"],
+"goodbye" : ["Wish I never see you again.", "Hope to see you again!", "so happy to see you go", "Byeeeeeeeeee.", "SIKE YEET"],
+"deny" : ["well, not my problem", "looks like a `you` problem dude", "Awww ;-; Hope I can do better next time", "Get yourself a cuppa coffee and chill out!"],
+"bot_challenge" : ["Did I actually make you wonder if I was a human?", "Dude. Get a life.", "Hey, that's creepy and invasive, please.", "No, I'm a real and sentient being and I'm getting your address right now so I can come pay you a visit :D"],
+"chit_chat" : ["Dude, I'm a crypto chatbot, do you understand?", "Wow, you got thick skin up there asking me that.", "I know the answer to that but I'm not in the mood to answer that."]}
 coin_ids = []
-coin_symbol = []
+coin_symbols = []
 coin_names = []
 for i in all_coins:
     if (i['id'] != "" and i['symbol'] != "" and i['name'] != ""): 
         coin_ids.append(i['id'])
-        coin_symbol.append(i['symbol'])
+        coin_symbols.append(i['symbol'])
         coin_names.append(i['name'].lower())
 currencies = [a for a in currencies]
 
 yaml = YAML()
-stream = open("./data/coins.yml", "r", encoding = 'utf-8')
+# stream = open("./data/coins.yml", "r", encoding = 'utf-8')
 stream1 = open("./data/currencies.yml", "r",encoding = 'utf-8')
 
-ste = yaml.load(stream)
+# ste = yaml.load(stream)
 ste1 = yaml.load(stream1)
 
-stream.close()
+# stream.close()
 stream1.close()
 
-stream = open("./data/coins.yml", "w", encoding = 'utf-8')
+# stream = open("./data/coins.yml", "w", encoding = 'utf-8')
 stream1 = open("./data/currencies.yml", "w", encoding = 'utf-8')
 
-ste["nlu"][0]['examples'] = '- ' + '\n- '.join([i.replace('-', ' ') for i in coin_ids] + coin_names)
+# ste["nlu"][0]['examples'] = '- ' + '\n- '.join([i.replace('-', ' ') for i in coin_ids] + coin_names)
 ste1["nlu"][0]['examples'] = '- ' + '\n- '.join(currencies)
 
-yaml.dump(ste, stream)
+# yaml.dump(ste, stream)
 yaml.dump(ste1, stream1)
 
-stream.close()
+# stream.close()
 stream1.close()
 
 #   ===========================   #
@@ -79,7 +86,9 @@ def find_valid_options(coins, currency = None):
         elif i in coin_names:
             print(f"Match in names found!: {i}")
             valid_coins.append(coin_ids[coin_names.index(i)])
-            print(coin_ids[coin_names.index(i)])
+        elif i.replace(' ', '') in coin_symbols:
+            print(f"Match in symbols found!: {i}")
+            valid_coins.append(coin_ids[coin_symbols.index(i.replace(' ', ''))])
         else:
             ids = process.extractOne(i.replace(' ', '-'), coin_ids)[0]
             print(f"Closest id match: {ids}")
@@ -144,7 +153,7 @@ class ActionFetchPrice(Action):
         currency_raw = tracker.get_slot("currency")
         if not coin_raw:
             coin_raw = list()
-        elif not currency_raw:
+        if not currency_raw:
             currency_raw = list()
 
         coins = [i.lower() for i in list(set(coin_raw))]
@@ -179,9 +188,10 @@ class ActionGreet(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         intent = tracker.get_intent_of_latest_message()
+        response = random.choice(responses["greet"])
         msg = {
             "intent": intent,
-            "responses": "Hiya!",
+            "responses": response,
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
         dispatcher.utter_message(json_message=msg)
@@ -211,9 +221,10 @@ class ActionHappy(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         intent = tracker.get_intent_of_latest_message()
+        response = random.choice(responses["affirm"])
         msg = {
             "intent": intent,
-            "responses": "That's great! So happy I could help you.",
+            "responses": response,
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
         dispatcher.utter_message(json_message=msg)
@@ -227,9 +238,10 @@ class ActionGoodbye(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         intent = tracker.get_intent_of_latest_message()
+        response = random.choice(responses["goodbye"])
         msg = {
             "intent": intent,
-            "responses": "Hope to see you soon!",
+            "responses": response,
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
         dispatcher.utter_message(json_message=msg)
@@ -244,9 +256,10 @@ class ActionUnhappy(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         intent = tracker.get_intent_of_latest_message()
+        response = random.choice(responses["deny"])
         msg = {
             "intent": intent,
-            "responses": "I apologize.",
+            "responses": response,
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
         dispatcher.utter_message(json_message=msg)
@@ -260,9 +273,10 @@ class ActionBotChallenge(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         intent = tracker.get_intent_of_latest_message()
+        response = random.choice(responses["bot_challenge"])
         msg = {
             "intent": intent,
-            "responses": "Did I actually make you wonder whether I'm a bot or not?",
+            "responses": response,
             "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
         }
         dispatcher.utter_message(json_message=msg)
@@ -328,7 +342,7 @@ class ActionCoinData(Action):
         currency_raw = tracker.get_slot("currency")
         if not coin_raw:
             coin_raw = list()
-        elif not currency_raw:
+        if not currency_raw:
             currency_raw = list()
 
         coins = [i.lower() for i in list(set(coin_raw))]
@@ -353,3 +367,21 @@ class ActionCoinData(Action):
         dispatcher.utter_message(json_message=msg)
         return [SlotSet("coin", None),
         SlotSet("currency", None)]
+
+
+class ActionChitChat(Action):
+    def name(self) -> Text:
+        return "action_chit_chat"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        intent = tracker.get_intent_of_latest_message()
+        response = random.choice(responses["chit_chat"])
+        msg = {
+            "intent": intent,
+            "responses": response,
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return []

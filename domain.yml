@@ -40,10 +40,15 @@ entities:
 
 intents:
   - greet
+      use_entities: []
   - goodbye
+      use_entities: []
   - affirm
+      use_entities: []
   - deny
+      use_entities: []
   - mood_great
+      use_entities: []
   - coin_search:
       use_entities: ["coin"]
   - simple_coin_price:
@@ -53,8 +58,13 @@ intents:
   - coin_data:
       use_entities: ["coin", "currency"]
   - mood_unhappy
+      use_entities: []
   - bot_challenge
+      use_entities: []
   - need_help
+      use_entities: []
+  - chit_chat
+      use_entities: []
 
 
 actions:
@@ -68,6 +78,7 @@ actions:
   - action_goodbye
   - action_unhappy
   - action_bot_challenge
+  - action_chit_chat
 
 session_config:
   session_expiration_time: 1
