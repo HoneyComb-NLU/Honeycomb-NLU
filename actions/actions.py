@@ -18,6 +18,7 @@ from ruamel.yaml import YAML
 from thefuzz import fuzz, process
 from ruamel.yaml.comments import CommentedMap as OrderedDict
 import requests
+import asyncio
 import random
 
 ### UPDATION AND INITIALIZATION
@@ -301,7 +302,7 @@ class ActionChart(Action):
         if not currency_raw:
             currency_raw = list()
         if time_raw == None:
-            time_raw = {}
+            time_raw = ""
         if chart_type == None:
             chart_type = "price"
         coins = [i.lower() for i in list(set(coin_raw))]

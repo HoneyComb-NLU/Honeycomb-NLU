@@ -95,6 +95,15 @@ nlu:
     - info
     - give info about honeycomb
     - i need help
+    - what do you do
+    - what is your function
+    - what are your functions
+    - what can you do
+    - what do
+    - what
+    - can you do something?
+    - who are you
+    - who
 
 - intent: bot_challenge
   examples: |
@@ -128,3 +137,9 @@ nlu:
     - weather info
     - calendar pls
     - when is your birthday
+    - what does a bird do
+    - what are animals
+    - what is a sparrow
+    - can you give me my pincode
+    - what city are you from
+    - where are you from
