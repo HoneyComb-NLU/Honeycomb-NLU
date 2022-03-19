@@ -16,6 +16,14 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - hiyaaaa
+    - what's up
+    - wazaaaaaaaaaaaaaap
+    - how are you
+    - how r u
+    - how are u
+    - how're you doing
+    - how you doin
 
 - intent: goodbye
   examples: |
@@ -29,6 +37,13 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - bbye
+    - byeeeeeeeeee
+    - see u soon
+    - good night
+    - byebye
+    - cyaaaaaaaa
+    - cya
 
 - intent: affirm
   examples: |
@@ -38,6 +53,13 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - true
+    - that's very true
+    - that's right
+    - you're right
+    - i agree
+    - agree
+    - i agree with you
 
 - intent: deny
   examples: |
@@ -48,6 +70,14 @@ nlu:
     - don't like that
     - no way
     - not really
+    - nooooo
+    - I don't agree with that
+    - dont agree
+    - I disagree
+    - disagree
+    - stop
+    - don't do that
+    - don't say that
 
 - intent: mood_great
   examples: |
@@ -65,6 +95,11 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - marvelous
+    - I feel really good
+    - beautiful
+    - feeling lucky
+    - i'm feeling lucky
 
 - intent: mood_unhappy
   examples: |
@@ -82,7 +117,14 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
+    - i feel like crying
+    - i don't feel so good
+    - feeling bad
+    - sucks
+    - it sucks
+    - i hate it here
+    - i don't like it
+    - i don't want this
 
 - intent: need_help
   examples: |

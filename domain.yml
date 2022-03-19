@@ -57,6 +57,8 @@ intents:
       use_entities: ["coin", "currency", "time", "chart_type"]
   - coin_data:
       use_entities: ["coin", "currency"]
+  - global_holdings:
+      use_entities: ["coin"]
   - mood_unhappy:
       use_entities: []
   - bot_challenge:
@@ -79,6 +81,8 @@ actions:
   - action_unhappy
   - action_bot_challenge
   - action_chit_chat
+  - action_fallback
+  - action_global_holdings
 
 session_config:
   session_expiration_time: 1

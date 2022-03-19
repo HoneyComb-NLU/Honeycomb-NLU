@@ -78,13 +78,13 @@ nlu:
     - [cap]{"entity": "chart_type", "value":"market cap"} chart
     - [ohlc]{"entity": "chart_type", "value":"ohlc"} chart of [eth](coin) in [eur](currency) since 20th february of 2018
     - [ohlc]{"entity": "chart_type", "value":"ohlc"} of [alpaca](coin) in [inr](currency)
-    - make [ohlc] chart of [shiba inu](coin) from 20th february 2020
+    - make [ohlc]{"entity": "chart_type", "value":"ohlc"} chart of [shiba inu](coin) from 20th february 2020
     - chart
-    - make chart price
-    - give volume chart
-    - give price chart pls
+    - make chart [price]{"entity":"chart_type", "value":"price"}
+    - give [volume]{"entity":"chart_type", "value":"volume"} chart
+    - give [price]{"entity":"chart_type", "value":"price"} chart pls
     - pls make a chart
-    - market cap chart
+    - [market cap]{"entity": "chart_type", "value":"market cap"} chart
 
 - intent: coin_data
   examples: |
@@ -104,3 +104,13 @@ nlu:
     - show me [eth](coin)
     - can i get information [btc](coin)
     - info of [2x2](coin)
+
+- intent: global_holdings
+  examples: |
+    - show me the global holdings of [bitcoin](coin)
+    - [btc](coin) global holdings
+    - holdings of [eth](coin)
+    - what are holdings [btc](coin)
+    - what are holdings of [ethereum](coin)
+    - global holdings of [2x2](coin)
+    - company holdings [alpha](coin)

@@ -104,3 +104,35 @@ stories:
   - intent: chart
   - action: action_chart
 
+- story: greet, coin srch, coin chart, mood happy, goodbye
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: coin_search
+  - action: action_coin_search
+  - intent: mood_great
+  - action: action_happy
+  - intent: chart
+  - action: action_chart
+  - intent: goodbye
+  - action: action_goodbye
+
+- story: greet, coin price, mood unhappy, fallback
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: simple_coin_price
+  - action: action_fetch_price
+  - intent: mood_unhappy
+  - action: action_unhappy
+  - intent: nlu_fallback
+  - action: action_fallback
+
+- story: global holdings, coin price, goodbye
+  steps:
+  - intent: global_holdings
+  - action: action_global_holdings
+  - intent: simple_coin_price
+  - action: action_fetch_price
+  - intent: goodbye
+  - action: action_goodbye

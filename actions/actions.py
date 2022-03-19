@@ -33,7 +33,8 @@ responses = {"greet": ["Hi", "Hey there!", "Hello thereeeee", "ayo waddup boi", 
 "goodbye" : ["Wish I never see you again.", "Hope to see you again!", "so happy to see you go", "Byeeeeeeeeee.", "SIKE YEET"],
 "deny" : ["well, not my problem", "looks like a `you` problem dude", "Awww ;-; Hope I can do better next time", "Get yourself a cuppa coffee and chill out!"],
 "bot_challenge" : ["Did I actually make you wonder if I was a human?", "Dude. Get a life.", "Hey, that's creepy and invasive, please.", "No, I'm a real and sentient being and I'm getting your address right now so I can come pay you a visit :D"],
-"chit_chat" : ["Dude, I'm a crypto chatbot, do you understand?", "Wow, you got thick skin up there asking me that.", "I know the answer to that but I'm not in the mood to answer that."]}
+"chit_chat" : ["Dude, I'm a crypto chatbot, do you understand?", "Wow, you got thick skin up there asking me that.", "I know the answer to that but I'm not in the mood to answer that."],
+"nlu_fallback" : ["I'm sorry, I don't understand what you mean by that.", "The answer to this is not in my scope.", "Oi, plenty of other bots out there who can answer that."]}
 coin_ids = []
 coin_symbols = []
 coin_names = []
@@ -386,3 +387,51 @@ class ActionChitChat(Action):
         }
         dispatcher.utter_message(json_message=msg)
         return []
+
+class ActionFallback(Action):
+    def name(self) -> Text:
+        return "action_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        intent = tracker.get_intent_of_latest_message()
+        response = random.choice(responses["nlu_fallback"])
+        msg = {
+            "intent": intent,
+            "responses": response,
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        dispatcher.utter_message(json_message=msg)
+        return []
+
+class ActionSearchCoin(Action):
+
+    def name(self) -> Text:
+        return "action_global_holdings"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        msg = tracker.get_slot('coin')
+        if not msg:
+            coins = list()
+        else:
+            coins = [msg[0].lower()]
+        choices = find_valid_options(coins)['coins']
+        print("***********************************************")
+        print(f"Search coin intent: choices are {choices}")
+        msg = {
+            "intent": tracker.get_intent_of_latest_message(),
+            "slots": {
+                "coins": choices,
+                "currencies": [],
+                "time" : {},
+                "chart_type" : ""
+            },
+            "timestamp": datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        }
+        print("***********************************************")
+        dispatcher.utter_message(json_message=msg)
+        return [SlotSet("coin", None)]
+    
