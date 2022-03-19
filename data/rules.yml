@@ -36,3 +36,13 @@ rules:
   steps:
   - intent: need_help
   - action: action_help
+
+- rule: action unhappy when mood unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: action_unhappy
+
+- rule: action happy when mood great
+  steps:
+  - intent: mood_great
+  - action: action_happy

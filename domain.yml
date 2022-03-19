@@ -39,15 +39,15 @@ entities:
   - chart_type
 
 intents:
-  - greet
+  - greet:
       use_entities: []
-  - goodbye
+  - goodbye:
       use_entities: []
-  - affirm
+  - affirm:
       use_entities: []
-  - deny
+  - deny:
       use_entities: []
-  - mood_great
+  - mood_great:
       use_entities: []
   - coin_search:
       use_entities: ["coin"]
@@ -57,13 +57,13 @@ intents:
       use_entities: ["coin", "currency", "time", "chart_type"]
   - coin_data:
       use_entities: ["coin", "currency"]
-  - mood_unhappy
+  - mood_unhappy:
       use_entities: []
-  - bot_challenge
+  - bot_challenge:
       use_entities: []
-  - need_help
+  - need_help:
       use_entities: []
-  - chit_chat
+  - chit_chat:
       use_entities: []
 
 
