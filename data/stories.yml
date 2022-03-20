@@ -109,7 +109,7 @@ stories:
   - intent: greet
   - action: action_greet
   - intent: coin_search
-  - action: action_coin_search
+  - action: action_search_coin
   - intent: mood_great
   - action: action_happy
   - intent: chart

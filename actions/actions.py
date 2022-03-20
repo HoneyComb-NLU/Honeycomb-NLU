@@ -90,7 +90,8 @@ def find_valid_options(coins, currency = None):
             valid_coins.append(coin_ids[coin_names.index(i)])
         elif i.replace(' ', '') in coin_symbols:
             print(f"Match in symbols found!: {i}")
-            valid_coins.append(coin_ids[coin_symbols.index(i.replace(' ', ''))])
+            ls = [x for x, y in enumerate(coin_symbols) if y == i.replace(' ', '')]
+            valid_coins.extend([coin_ids[i] for i in ls])
         else:
             ids = process.extractOne(i.replace(' ', '-'), coin_ids)[0]
             print(f"Closest id match: {ids}")
@@ -405,7 +406,7 @@ class ActionFallback(Action):
         dispatcher.utter_message(json_message=msg)
         return []
 
-class ActionSearchCoin(Action):
+class ActionGlobalHoldings(Action):
 
     def name(self) -> Text:
         return "action_global_holdings"
@@ -418,7 +419,7 @@ class ActionSearchCoin(Action):
             coins = list()
         else:
             coins = [msg[0].lower()]
-        choices = find_valid_options(coins)['coins']
+        choices = [i for i in find_valid_options(coins)['coins'] if i == "bitcoin" or i == "ethereum"]
         print("***********************************************")
         print(f"Search coin intent: choices are {choices}")
         msg = {
