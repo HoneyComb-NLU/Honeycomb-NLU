@@ -29,7 +29,7 @@ import random
 all_coins = requests.get("https://api.coingecko.com/api/v3/coins/list").json()
 currencies = requests.get("https://api.coingecko.com/api/v3/simple/supported_vs_currencies").json()
 responses = {"greet": ["Hi", "Hey there!", "Hello thereeeee", "ayo waddup boi", "wazaaaaaaaaaaaaaaaaap", "Hiya!"],
-"affirm" : ["That's great!", "That is good to hear.", "who tf asked bro", "no shit bitch", "I'm so glad :D"],
+"affirm" : ["That's great!", "That is good to hear.", "who tf asked bro", "https://tenor.com/view/who-asked-me-trying-to-find-who-asked-spongebob-spunch-bob-gif-22526294", "https://tenor.com/view/jarvis-iron-man-who-asked-who-asked-meme-meme-gif-24590276", "I'm so glad :D"],
 "goodbye" : ["Wish I never see you again.", "Hope to see you again!", "so happy to see you go", "Byeeeeeeeeee.", "SIKE YEET"],
 "deny" : ["well, not my problem", "looks like a `you` problem dude", "Awww ;-; Hope I can do better next time", "Get yourself a cuppa coffee and chill out!"],
 "bot_challenge" : ["Did I actually make you wonder if I was a human?", "Dude. Get a life.", "Hey, that's creepy and invasive, please.", "No, I'm a real and sentient being and I'm getting your address right now so I can come pay you a visit :D"],
@@ -304,12 +304,15 @@ class ActionChart(Action):
         if not currency_raw:
             currency_raw = list()
         if time_raw == None:
-            time_raw = ""
+            time_raw = {}
         if chart_type == None:
             chart_type = "price"
+        chart_type = chart_type.lower()
         coins = [i.lower() for i in list(set(coin_raw))]
         currencies = [i.lower() for i in list(set(currency_raw))]
         choices = find_valid_options(coins, currencies)
+        if chart_type == "volume":
+            chart_type = "total_volume"
 
         coins = choices['coins']
         currencies = choices['currencies']

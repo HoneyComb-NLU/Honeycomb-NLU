@@ -25,6 +25,9 @@ nlu:
     - what is the id of [slp](coin)
     - symbol pls
     - please give me id of [alpaca](coin)
+    - what is the id of [wormhole](coin)?
+    - id of [wormhole](coin)
+    - what is the id of [bitcoin](coin)
 
 - intent: simple_coin_price
   examples: |
